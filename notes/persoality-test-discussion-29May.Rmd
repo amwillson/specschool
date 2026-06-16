@@ -1,0 +1,64 @@
+---
+title: "Personality Test Discussion"
+author: "Alyssa Willson"
+date: "2026-06-02"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Personality Test Caveats
+
+* Most popular personality tests (MBTI, Enneagram, etc.) have limited or mixed empirical support--they're useful tools, not hard science.
+* Many lack strong *test-retest reliability*, meaning you might get a different result if you took it on a different day or in a different mood.
+* A personality type is a *snapshot*, not a fixed identity--people change over time and across contexts.
+* The goal is self-reflection and curiosity, not labeling and boxing people in.
+* Resist the urge to use your type as an excuse ("Im an INTJ, I can't help it").
+* Be careful about projecting--knowing someone's type doesn't mean you fully understand them.
+* Results are self-reported, so they reflect how you *see yourself*, which may differ from how others experience you.
+
+## Jung/Myers Briggs Personality "Types"
+
+* The first criterion, **Extraversion - Introversion**, signifies the source and direction of a person's energy expression. An extravert's source and direction of energy expression is mainly in the external world, while an introvert has a source of energy mainly in their own internal world.
+* The second criterion, **Sensing - Intuition**, represents the method by which someone perceives information. Sensing means that a person mainly believes information they receive directly from the external world. Intuition means that a person believes mainly information they receive from the internal or imaginative world.
+* The third criterion, **Thinking - Feeling**, represents how a person processes information. Thinking means that a person makes a decision mainly through logic. Feeling means that, as a rule, they make a decision based on emotion, i.e. based on what they feel they should do.
+* The fourth criterion, **Judging - Perceiving**, reflects how a person implements the information they have processed. Judging means that a person organizes all of their life events and, as a rule, sticks to plans. Perceiving means that they are inclined to improvise and explore alternative options.
+
+|Type|% of Population|% of our Group|
+|----|---------------|--------------|
+|ISFJ|~13.8%|0|
+|ESFJ|~12.3%|0|
+|ISTJ|~11.6%|0|
+|ISFP|~8.8%|0|
+|ESTJ|~8.7%|15.7%|
+|ESFP|~8.5%|5.3%|
+|ENFP|~8.1%|0|
+|ISTP|~5.4%|0|
+|INFP|~4.4%|5.3%|
+|ESTP|~4.3%|0|
+|INTP|~3.3%|5.3%|
+|ENTP|~3.2%|0|
+|ENFJ|~2.5%|10.5%|
+|INTJ|~2.1%|5.3%|
+|ENTJ|~1.8%|10.5%|
+|INFJ|~1.5%|36.8%|
+
+## Big 5 Personality "Traits"
+
+* **Openness** - People who like to learn new things and enjoy new experiences usually score high in openness. Openness includes personality traits like being insightful and imaginative and having a wide variety of interests.
+* **Conscientiousness** - People that have a high degree of conscientiousness are reliable and prompt. Personality traits include being organized, methodic, and thorough.
+* **Extraversion**- Extraverts get their energy from interacting with others, while introverts get their energy from within themselves. Extraversion includes the personality traits of energetic, talkative, and assertive.
+* **Agreeableness**- These individuals are friendly, cooperative, and compassionate. People with low agreeableness may be more distant. Personality traits include being kind, affectionate, and sympathetic.
+* **Neuroticism**- Neuroticism is also sometimes called Emotional Stability or Natural Reactions. This dimension relates to one's emotional stability and degree of negative emotions. People that score high on neuroticism often experience emotional instability and negative emotions. Personality traits include being moody and tense for example.
+
+## What does this all mean?
+
+* We are all different!
+* How you react to situations and information is not necessarily the "right" way.
+* There is not "right" way to react to situations and/or information.
+* As we work together, it is important to remember that even among our relatively homogeneous group (WEIRD scientists) there is lots of diversity in our personalities.
+* In the broader world, there are even more personality types, many of which are common in the general population but rare among people who have chosen scientific careers.
+
+## Breakouts!

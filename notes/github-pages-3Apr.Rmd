@@ -1,0 +1,116 @@
+---
+title: "Personal websites with Github"
+author: "Alyssa Willson"
+date: "2026-04-03"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Overview
+
+* Intro to Git and Github (20 min)
+* Short demo (10 min)
+* Work on your websites in breakout rooms (45 min)
+* Conclusions (15 min)
+
+## Why making a personal website?
+
+* Online presence
+* Portfolios
+* Job applications
+
+## Introduction to Git, Github, Github Pages
+
+## Git and GitHub
+
+* Git is a version control system that tracks changes to files in a project over time.
+* GitHub is a web hosting service for the source code of projects (software, web development, other text based projects) that use Git.
+
+## Github account looks like this:
+
+## Git and GitHub
+
+* Repositories = Project
+* Repositories can be cloned or forked
+* Repositories can be private or public
+* We use it for:
+  * Collaborative Science
+  * Back-up code (collaboration with your future self)
+  * Your SPEC School final project
+  * Webpages!
+  
+"Using a Git commit is like using anchors and other protection when climbing...if you make a mistake, you can't fall past the previous commit.
+
+Commits are also helpful to others, because they show your journey, not just the destination."
+
+-Hadley Wickham & Jenny Bryan
+
+## Git and GitHub resources
+
+* GitHub Docs: https://docs.github.com/en and https://skills.github.com/
+* Library Carpentry lesson on GitHub: https://joshuadull.github.io/GitHub-Desktop/
+* Alternative to GitHub: https://www.atlassian.com/git/tutorials/learn-git-with-bitbucket-cloud
+* <3 Happy Git and GitHub for the useR: https://happygitwithr.com/
+
+## GitHub Pages
+
+* GitHub Pages are public webpages hosted for free through GitHub.
+* One personal website allowed per user.
+* Many ways to build your personal website:
+  * From scratch (examples: https://jmcglone.com/guides/github-pages/ and https://blog.devgenius.io/how-to-create-a-personal-website-with-github-pages-7a29abc4a02b)
+  * Using a static site generator: Tool that generates websites using templates (themes)
+
+## Themes:
+
+* General:
+  * http://jekyllthemes.org
+  * https://themes.gohugo.io
+  * Huge list here: https://myles.github.io/awesome-static-generators/
+* Academic Themes (website | github repo):
+  * Academic Pages | https://github.com/academicpages/academicpages.github.io
+  * Hugo Themes-Academic | https://github.com/
+  * Dr. Jekyll | https://github.com/tyler-abbot/DrJekyll
+  
+## Examples:
+
+* Antonio Guzman: https://www.jaguzmanq.com/
+* Casey Youngflesh: https://www.youngfleshlab.com/
+* Ny Aina Rakotoarivony: https://nyainarakoto.github.io/
+
+
+## Demo
+
+* Academic Pages | https://github.com/academicpages/academicpages.github.io
+
+## Steps
+
+1. Select a theme (here, we're using academicpages)
+2. Go to the github repo of the theme
+3. Fork the repository
+4. Change name of repo to username.github.io
+5. Set configuration, content, and data
+
+You're all set!
+
+## Steps: 1. Select theme
+
+## Steps: 2. Fork repository
+
+## Steps: 3. Change name of repo
+
+* Update website and description
+
+## Steps: 4. Set the configuration and data
+
+* Locate the configuration file (_config.yml) and edit it by replacing the default variables with your own info. To edit the file, click on the pencil icon on the top-right. Commit!
+* Go to _data folder and change the navigation.yml file to fit your needs
+* Go to_pages folder and edit the about.md file
+* Keep editing the markdown files until your website is ready!
+
+## Breakout rooms
+
+* Your turn!
+* 45 min

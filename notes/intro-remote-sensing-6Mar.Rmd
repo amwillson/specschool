@@ -1,0 +1,152 @@
+---
+title: "A Brief Review of Remote Sensing Basics"
+author: "Alyssa Willson"
+date: "2026-03-06"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## RS is really the study of light (electromagnetic radiation)
+
+* YouTube video: Is Light a Particle or a Wave?
+
+* Light is unlike other stuff we encounter in the world.
+* What we can actually measure is the amount of light (watts per square meter) in a given solid angle in a given wavelength range
+* This is called "radiance"
+
+## Active vs Passive Remote Sensing
+
+* **Active** sensors emit EMR and then measure how long it takes to get back to the sensor (e.g. lidar, radar)
+* **Passive** sensors collect EMR that is either coming from the sun and reflected off an object (e.g. multi- and hyperspectral) or collect EMR that is emitted from an object (e.g. thermal, SIF)
+
+## Remote Sensing (RS) "Platforms"
+
+* The ground ("near surface RS")
+* Drones/UAVs
+* Airplanes
+* Satellites
+  * Tasked
+  * "Full Coverage"
+
+## Radiative Transfer
+
+* **EMR behaves differently as it passes through or bounces off different materials**
+* EMR behaves differently **depending on the wavelength** in question
+* Accounting for these differences is called **Radiative Transfer Modelling**, literally the estimation of EMR transferring from one medium to another.
+* Virtually all remote sensing is aimed at trying to understand how EMR interacts with, is emitted by, or bounces off stuff (plants, rocks, the atmosphere, clouds, lava, water, etc).
+
+## Radiance and Reflectance
+
+* **We measure radiance but we care about reflectance.**
+
+## Types of Remote Sensing
+
+* The **VAST** majority of terrestrial remote sensing uses **passive optical** multispectral spaceborne sensors, like Landsat, MODIS, and Sentinel-2
+  * = Optical is not the same as visible. Optical includes the visible, NIR, SWIR, and thermal
+* Terrestrial remote sensing focused on structure uses active sensing like lidar (in optical wavelengths, mostly airborne) or radar (radio & microwaves, mostly spaceborne)
+* NEON's Airborne Observation Platform (AOP) includes sa passive optical hyperspectral 
+
+## Scale & Resolution
+
+* It's more than just pixel size!
+* Spatial extent and grain size (fine vs. coarse)
+* Temporal extent and frequency
+* Spectral extent and resolution
+* Radiometric and technical specs
+
+## VSWIR Spectroscopy
+
+* VIS: What we see; plant function
+* NIR: Cell structure; plant/soil brightness; plant chemistry
+* SWIR: Water content across materials; plant chemistry
+
+## VSWIR Spectroscopy--contact spectroscopy
+
+* Also, these spectral signatures have gone through atmospheric correction!
+
+## Landsat & Sentinel-2
+
+## Coarse Spatial Resoluton Satellites (MODIS & VIIRS)
+
+* Multispectral like Landsat & Sentinel-2, but much coarser spatial resolution
+
+## Common Methods for Analyzing Multi/Hyperspectral Data
+
+## Spectral Indictes
+
+* **Normalized Difference** Vegetation Index (NDVI)
+  * $\frac{NIR - red}{NIR + red}$
+* Lots of other indices--question is always WHAT bands do they use, where were they developed, and what sensor(s) were used?
+
+## Land Cover Classification / Clustering
+
+## Trait Mapping with Statistical Approaches
+
+* Collect leaf samples (& GPS locations)
+* Collect leaf or image spectra
+* Process leaves for traits in lab
+* Assemble & clean data!
+* Partial least squares regression (PLSR)
+* Predict traits of unknown leaves/pixels
+
+## VSWIR Spectroscopy Wrap-Up
+
+* Spectral Indices are common ways of simplifying multi and hyperspectral data.
+* Classification/Clustering is the most common way of turning spectral (and other) data into a useable map.
+* PLSR is the "standard" technique for mapping plant traits with hyperspectral data--we will spend more time on this later in the course
+* Many other techniques for processing/thinking about spectral data!
+
+## Questions on Spectroscopy?
+
+## Light Detection & Ranging (lidar)
+
+* YouTube video: How Does LiDAR Remote Sensing Work? Light Detection and Ranging
+
+## Wavelengths and their Properties
+
+## Point Cloud Data
+
+* X, Y, Z coordinates
+* Intensity
+* Sometimes other information
+* Either .las or .laz file formats
+
+## Processing Point Clouds
+
+* From the Warra SuperSite in Tasmania, Australia
+* Don't forget the third dimension!
+
+## Waveform Lidar
+
+## CHM & DEM
+
+* Canopy Height Model (CHM) & Digital Elevation Model (DEM)
+
+## Within-Canopy Metrics
+
+## Lidar Wrap-Up
+
+* Lidar data depends a lot on the specifications of the system
+* Most vegetation-focused systems use 1064 nm light
+* Main goal is usually to map canopy height (CHM) and elevation (DEM)
+* There are LOTS of metrics for calculating within canopy shape/density
+
+## Questions on lidar?
+
+## NEON AOP Data Applications
+
+## Sources of Uncertainty
+
+* Physics and engineering
+* Phenology and physiological change over time
+  * ORNL PhenoCam July 2020
+* Spectral Unmixing in coarse-ish data
+* Under-documented parts of the world
+
+## Acknowledgments
+
+* Feedback on this lecture was provided by Keely Roth (University of Utah & Planet Labs), Fred Huemmrich (UMBC and NASA), and Adriana Uscanga (UMN)
+* SPEC School is supported by NSF DEB Award #2044818

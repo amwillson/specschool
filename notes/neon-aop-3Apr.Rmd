@@ -1,0 +1,313 @@
+---
+title: "NEON Remote Sensing Overview"
+author: "Alyssa Willson"
+date: "2026-04-03"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## NEON Remote Sensing Overview
+
+### SPEC School - April 3, 2026
+
+* Bridget Hass
+* Data Scientist
+* Airborne Observation Platform & Data Skills
+
+## What is the National Ecological Observatory Network (NEON)?
+
+* NSF large facility
+* Continental-scale observatory
+* Designed to enable understanding and forecasting of the effects of land use, climate and other environmental change
+
+* 81 field sites
+  * 47 terrestrial
+  * 34 aquatic
+* > 180 data products
+
+## NEON's data collection methods
+
+* IS - Instrument System
+  * Fixed sensors; e.g. meteorology, soil, surface water, eddy covariance (energy fluxes).
+  * Terrestrial & Aquatic
+* OS - Observation System
+  * Terrestrial & Aquatic
+  * Data are collected manually; e.g. taxa, biomass, chemistry, microbial sequencing, pathogens
+* AOP - Remote Sensing
+  * Airborne Platform
+  * Mobile, airborne system; hyperspectral lidar and camera data products for regional scale mapping.
+  
+## NEON provides data at scale
+
+* 81 field sites
+  * 47 terrestrial
+  * 34 aquatic
+* Over 180 data products
+
+## Airborne Observation Platform (AOP)
+
+* Collects airborne remote sensing data
+* Covers 'regional scale' landscapes (min of 100 km\textsuperscript{2})
+* Data products generated at high spatial resolution ($\le$ 1 m\textsuperscript{2})
+* Waveform Lidar, Imaging Spectrometer and RGB camera
+
+## AOP Sensors
+
+* NEON Imaging Spectrometer (NIS)
+* AOP by the Numbers
+  * 3 sensors
+  * 30 data products (L1-L3)
+  * 12 years of data (2013-2024)
+  * 2-10 visits per site (7 average)
+  * > 200 research publications
+  * 376 TB of data
+  
+## AOP Flight Plan Design
+
+## AOP Sampling Collection Requirements
+
+* Clear Skies (<10% cloud cover)
+  * high quality, unobscured reflectance data
+* Nominal AOP flying altitude = 1000 m AGL
+  * collect data at the scale of individual plants
+* Minimum 10 km x 10 km box for terrestrial sites
+  * collect regional scale area around NEON sites
+* Fly at peak 'greeness' (phenology)
+  * consistency between annual collections
+* Fly N-S lines, solar angles above 40°
+  * consistency between flight lines\textsuperscript{*}
+
+## AOP Sensors - LiDAR
+
+## LiDAR - Light Detection and Ranging
+
+## Mountain Lake Biological Station (MLBS)
+
+## Little Rock Lake, Wisconsin
+
+## Lidar Raster Data (Level 3)
+
+### Elevation Models, Canopy Height, Slope/Aspect
+
+* DSM
+* DTM
+* CHM
+
+## AOP Sensors - Hyperspectral
+
+## Hyperspectral Resolution
+
+## Airborne Observation Platform Data Pipeline
+
+## NEON AOP Data Products
+
+* Level 1
+  * LiDAR Slant Range Waveform
+  * Discrete Return LiDAR Point Cloud (Unclassified & Classified)
+  * Spectrometer Orthorectified at-Sensor Radiance
+  * Spectrometer Orthorectified Surface Directional Reflectance
+  * Spectrometer Orthorectified Surface Bidrectional Reflectance
+  * High-resolution Orthorectified camera imagery
+  * Raw data to physical units (flightline & tiled)
+* Level 2
+  * Vegetation Indices (ARVI, EVI, NDVI, PRI, SAVI)
+  * Canopy Water Indices (MSI, NDII, NDWI, NMDI, WBI)
+  * Albedo
+  * Fraction of Photosynthetically Active Radiation (fPAR)
+  * Leaf Area Index (LAI)
+  * Canopy Nitrogen
+  * Canopy Lignin
+  * Total Biomass Map
+  * Dertived NIS products - spectral indices (flightline)
+* Level 3
+  * Spectrometer Orthorectified Surface Bidirectional Reflectance
+  * Vegetation Indices
+  * Water Indices
+  * Albedo, fPAR, LAI
+  * Canopy Nitrogen, Ligning, Biomass
+  * Ecosystem Structure (CHM)
+  * Elevation -- LIDAR (DTM, DSM)
+  * Slope/Aspect -- LIDAR
+  * High-resolution Orthorectified camera imagery mosaic
+  * Derived product mosaics (1km x 1km tiles)
+* ATBDs (Algorithm Theoretical Basis Documents) describe the process of data product creation
+
+## Field Spectra Data
+
+* Field Spectra Data (DP1.30012.001)
+* Leaf Clip Attachment
+* Handheld Spectrometer
+
+## Working with the field spectra data product
+
+* Explore Field Spectra Data -- Scaling Ground and Airborne Observations
+
+## Recent & Future Updates to AOP data products
+
+* 2024: BRDF and topographic-corrected reflectance product derived for the NEON spectrometer data
+  * 2022-2025 AOP data now available, back-processing of earlier data has started
+  * Using BRDF- and topographic-corrected reflectance to generate higher-level spectrometer data products (L2, L3) products (e.g. veg & water indices, LAI, FPAR, Albedo)
+* 2025: New Lidar Sensor (Riegl VQ780-IIS)
+* 2026: Mapped plant foliar trait products for NEON sites:
+  * Canopy percent Nitrogen - subset available on the Portal and GEE!
+  * Canopy lignin (coming soon)
+* Later: Biomass
+
+## Why apply the BRDF correction?
+
+* Corrects for 'surface reflectance anisotropy'
+* Objects look differently when viewed from different angles, and when illuminated from different locations.
+
+### UNDE 2019, Directional
+
+### UNDE 2022, Bidirectional
+
+## Foliar Trait Products - Modeling Workflow
+
+* NEON Terrestrial Observation Sampling (TOS) Datasets
+  * Geolocated foliar sampling performed for
+    * Woody individuals
+    * Herbaceous cover
+  * Foliar traits
+    * Biophysical (LMA, canopy water content)
+    * Biochemical (C, N, lignin, chlorophyll, elements, etc.)
+    * Stable isotopes ($\delta$ 13C, $\delta$ 15 N)
+  * Veg structure
+    * Years $\ge$ 2020
+      * Hand-delineated crown polygons
+    * Years < 2020
+      * Stem density + stem azimuth + crown diameter -> create crown polygons
+* NEON Airborne Observation Platform (AOP) Datasets
+  * Hyperspectral
+    * Level-1 reflectance data, 426 bands (385-2500 nm) at 1m resolution
+      * BRDF correction
+      * Topographic correction
+      * Wavelength resampling
+    * Corrected reflectance
+    * Select flight lines which are least cloud-affected
+* Extract AOP Data for foliar sampling locations
+  * Woody individuals
+  * Herbaceous clip strips
+  * Select only those 1m pixels within a tree crown which are,
+    * 1) Vegetated (NDVI > threshold)
+    * 2) Not understory vegetation (CHM > threshold)
+    * 3) Not affected by cloud shadows (NIR > threshold)
+  * For the remaining 1m pixels within a crown, perform brightness normalization on the spectra to reduce the effect of internal canopy shadows
+  * Calculate average value for the spectra and lidar-derived variables for the tree crown/clip strip
+  * Model inputs: 331 hyperspectral bands
+* Partial least squares regression (PLSR) modeling
+* Map foliar traits and characterize uncertainty
+
+## Canopy Nitrogen - newly available!
+
+## AOP Data Quality Considerations
+
+* NIS - Weather Quality / Cloud Conditions
+
+## HARV weather conditions & coverage 2014-2018
+
+## HARV weather conditions 2019-2024
+
+## AOP LiDAR Sensors
+
+| | Optech Gemini (P1 & P2) | Riegl Q780 (P3) | Optech Galaxy Prime (P1 2021+) | Riegl VQ-780 II-S (P2 2025+) |
+|--|--|--|--|--|
+| Years Flow | 2012-2020 | 2018+ | 2021+ | 2025+ |
+| Laser Pulse Length (ns) | 10 | 3 | 3 | 3 |
+| Beam Divergence (mRad) | 0.8 | 0.25 | 0.25 | 0.25 |
+| Nominal Pulse Repetition Frequency (PRF, kHz) | 33-100 | 300-400\textsuperscript{\*} (up to 266) | 150-900 | 270-2000\textsuperscript{\*} (180-1333) |
+| Pulse Density (pulses/m\textsuperscript{2}) | 2-4 | 4-10+ | ~up to 30+ | ~up to 50+ |
+
+\textsuperscript{*}The Reigl sensors use a rotating mirror so at 60 degrees only collect 2/3 of the maximum PRF
+
+## Lidar Point Density HARV 2014 v 2024 - All Points
+
+## Lidar Point Density HARV 2014 v 2024 - Ground Points
+
+## LiDAR Uncertainty
+
+## Resources for Getting Started with AOP data
+
+## AOP (& NEON) Data Access
+
+* Data Portal - manual data download through the NEON website
+  * data.neonscience.org
+  * includes important documents (Quick Start Guides, Algorithm Documentation - ATBDs) and information about NEON data products
+* API - programmatic download (https://data.neonscience.org/data-api/)
+  * R (neonUtilities)
+  * Python neonutilities (Python  version newly available as of Fall 2024)
+* Google Earth Engine (GEE)
+  * Subset of data available now, continuing to add more in 2025
+  * Publicly searchable/findable in the GEE Publisher Data Catalog!
+
+## AOP data on Google Earth Engine
+
+## GEE Visualization App
+
+## NEON/AOP Tutorials - GEE, Python, R
+
+* Intro to AOP Data in Google Earth Engine (GEE) Tutorial Series
+* Download and Explore NEON data
+* Getting started: Download data from the Portal
+
+## Additional Educational Resources
+
+* Workshops & Courses
+* Code Hub
+* Learning Hub
+* https://www.neonscience.org/resources/learning-hub
+
+## Join us for the NEON Science Seminar Series!
+
+* May 12, 2026: Ranjan Muthukrishnan, St. Olaf College. "Linking Local Scale Community
+
+## Upcoming Required Logins and Data Licensing Updates
+
+* Starting in June 2026...
+* Required sign-in and tokens for downloads:
+  * You will need to:
+    * Create a NEON user account and sign in to download data from the Data Portal OR
+    * Use an API token to download data from the API or neonUtilities
+  * Without authentication, you can still browse information about NEON resources and view limited "snapshot" visualizations, but downloads
+  
+## Research Applications & Highlights
+
+## NEON data & samples inform responses to extreme events
+
+* Lidar point clouds colorized by camera imagery at the Soaproot Saddle, CA (SOAP) site before and after the 2020 Creek Fire
+
+## NEON data & samples inform responses to extreme events
+
+* Natural disaster events captured at 6 NEON sites + 6 other sites through teh Research Support Services\textsuperscript{*} program from 2012-2023
+* Hurricane Michael Altered the Structure and Function of Longleaf Pine Woodlands *Kenney et al. 2021 JGR Biosciences* https://doi.org/10.1029/2021JG006452
+* 2 more wildfires in aquatic sites since 2023: at the MCRA site in Oregon and SYCA in Arizona
+
+## Wildfire vulnerability
+
+* Classification and clustering analysis of standing dead trees and associated park asset wildfire vulnerability in Yellowstone National Park
+* Yellowstone's Standing Dead Trees Are a Wildfire Disaster Waiting to Happen, Scientists Warn
+
+## Tree mortality
+
+* Aboveground Biomass and Tree Mortality Revealed Through Multi-Scale LiDAR Analysis
+
+## Tree species classification: ML applications
+
+* Individual canopy tree species maps for the National Ecological Observatory Network
+
+## Artificial Intelligence for Global Scale Mapping
+
+* Using Artificial Intelligence to Map the Earth's Forests
+
+## Biodiversity
+
+* Plant diversity across dimensions: Coupling biodiversity measures from the ground and the sky
+
+## Contact
+
+* Bridget's email: bhass@battelleecology.org
+* GEE data addition requests or questions: listaopgee@battelleecology.org
+* Contact Us Form: https://www.neonscience.org/about/contact-us

@@ -1,0 +1,11 @@
+@misc{https://doi.org/10.48443/pypa-qf12,
+  doi = {10.48443/PYPA-QF12},
+  url = {https://data.neonscience.org/data-products/DP1.10098.001/RELEASE-2026},
+  author = {{National Ecological Observatory Network (NEON)}},
+  keywords = {plant productivity, production, carbon cycle, biomass, vegetation, productivity, plants, trees, shrubs, lianas, saplings, net primary productivity (NPP), annual net primary productivity (ANPP), woody plants, vegetation structure, tree height, canopy height, vst, biodiversity},
+  language = {en},
+  title = {Vegetation structure (DP1.10098.001)},
+  publisher = {National Ecological Observatory Network (NEON)},
+  year = {2026}
+}
+

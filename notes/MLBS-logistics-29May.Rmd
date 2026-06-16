@@ -1,0 +1,31 @@
+---
+title: "Logistics"
+author: "Alyssa Willson"
+date: "2026-06-02"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Logistics!
+
+* **Arrival times** - we will pick you up from the ROA airport in big (probably green or silver) MSU vans. We will send out an approximate schedule in 2 weeks along with contact info if things go awry. Drive is about 1 hr 15 min from ROA to MLBS. You will get 75% per diem for travel days (~$44)
+* **Drivers** - "Check in" at MLBS is 4 pm.
+* **Packing list** - https://mlbs.virginia.edu/whattobring Most important MLBS does NOT provide sheets, pillows or towels. If this means you have to check a bag, we can reimburse you for this after the trip (just keep your receipts!)
+  * It might be COLD and or WET, especially in the evenings
+* Kyla will have some **emergency supplies** including first aid kits, snacks, laundry detergent, and lady products. If you need something, ask!
+* We will make an optional run to **Target on Monday** morning in case people forgot anything or want to purchase additional snacks, beverages, etc.
+
+## Some Photos of MLBS to get you excited!
+
+## Homework
+
+* Read/skim the Wang et al 2020 & Atkins et al 2023 papers.
+* Try to connect to MSU's HPCC (Kyla will provide instructions next week). This can be a pain depending on your system and your familiarity with this type of thing, but it's worth trying. Please try to do this early next week so that we can troubleshoot if things are working. We will aim to use the HPCC on Monday, June 10\textsuperscript{th}.
+* Install the Okta Verify app for 2-factor authentication (there is NO cell service at MLBS, but plenty of internet!)
+* Tower climb release forms.
+* Think of other questions or concerns you may have.
+
+## Questions? Thoughts? Comments?

@@ -1,0 +1,1866 @@
+{
+  "uuid": "4a656eca-45c7-4ff3-b094-9a5c228823bf",
+  "timestamp": "2026-06-15T18:57:31Z",
+  "zipFileName": "NEON_struct-plant",
+  "mimeType": "application/zip",
+  "productCode": "DP1.10098.001",
+  "productName": "Vegetation structure",
+  "siteCodes": [
+    "MLBS"
+  ],
+  "startDate": "2014-01-01T00:00:00Z",
+  "endDate": "2026-04-30T23:59:59Z",
+  "packageType": "basic",
+  "documents": [
+    {
+      "fileName": "NEON.DOC.001715vD.pdf",
+      "downloadFileName": null,
+      "type": "application/pdf",
+      "fileSizeBytes": 2222971,
+      "description": "TOS Standard Operating Procedure: CAC – Cactus Biomass and Handling",
+      "uri": "https://data.neonscience.org/api/v0/documents/NEON.DOC.001715vD"
+    },
+    {
+      "fileName": "NEON.DOC.005424vA.pdf",
+      "downloadFileName": null,
+      "type": "application/pdf",
+      "fileSizeBytes": 666888,
+      "description": "NEON Algorithm Theoretical Basis Document (ATBD): OS Data Quality Control",
+      "uri": "https://data.neonscience.org/api/v0/documents/NEON.DOC.005424vA"
+    },
+    {
+      "fileName": "NEON_vegStructure_userGuide_vG.pdf",
+      "downloadFileName": null,
+      "type": "application/pdf",
+      "fileSizeBytes": 1297133,
+      "description": "NEON User Guide to the Vegetation Structure Data Product (NEON.DP1.10098.001)",
+      "uri": "https://data.neonscience.org/api/v0/documents/NEON_vegStructure_userGuide_vG"
+    },
+    {
+      "fileName": "NEON.DOC.000987vN.pdf",
+      "downloadFileName": null,
+      "type": "application/pdf",
+      "fileSizeBytes": 6416373,
+      "description": "TOS Protocol and Procedure: VST - Measurement of Vegetation Structure",
+      "uri": "https://data.neonscience.org/api/v0/documents/NEON.DOC.000987vN"
+    },
+    {
+      "fileName": "NEON.QSG.DP1.10098.001v2.pdf",
+      "downloadFileName": null,
+      "type": "application/pdf",
+      "fileSizeBytes": 663226,
+      "description": "Quick Start Guide for Vegetation structure (DP1.10098.001)",
+      "uri": "https://data.neonscience.org/api/v0/documents/quick-start-guides/NEON.QSG.DP1.10098.001v2.pdf"
+    }
+  ],
+  "releases": [
+    {
+      "release": "RELEASE-2026",
+      "generationDate": "2026-01-23T00:07:49Z",
+      "packages": [
+        {
+          "release": "RELEASE-2026",
+          "productCode": "DP1.10098.001",
+          "domainCode": "D07",
+          "siteCode": "MLBS",
+          "month": "2015-09",
+          "packageType": "basic",
+          "generationDate": "2026-01-23T00:07:49Z",
+          "files": [
+            {
+              "fileName": "NEON.D07.MLBS.DP1.10098.001.vst_mappingandtagging.basic.20260106T155703Z.csv",
+              "downloadFileName": null,
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2026/data/DP1.10098.001/MLBS/2015-09/NEON.D07.MLBS.DP1.10098.001.vst_mappingandtagging.basic.20260106T155703Z.csv",
+              "fileSizeBytes": 882279,
+              "checksum": "9c468d519a8aabf56250cfa8f521c004",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D07.MLBS.DP0.10098.001.validation.20260106T155703Z.csv",
+              "downloadFileName": null,
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2026/data/DP1.10098.001/MLBS/2015-09/NEON.D07.MLBS.DP0.10098.001.validation.20260106T155703Z.csv",
+              "fileSizeBytes": 41525,
+              "checksum": "225b90a870114b39e17d25b4c4dbad0b",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D07.MLBS.DP1.10098.001.vst_perplotperyear.2015-09.basic.20260106T155703Z.csv",
+              "downloadFileName": null,
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2026/data/DP1.10098.001/MLBS/2015-09/NEON.D07.MLBS.DP1.10098.001.vst_perplotperyear.2015-09.basic.20260106T155703Z.csv",
+              "fileSizeBytes": 4963,
+              "checksum": "b5b6d01658aa571e9a071a9d1c5c600b",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D07.MLBS.DP1.10098.001.vst_identificationHistory.basic.20260106T155703Z.csv",
+              "downloadFileName": null,
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2026/data/DP1.10098.001/MLBS/2015-09/NEON.D07.MLBS.DP1.10098.001.vst_identificationHistory.basic.20260106T155703Z.csv",
+              "fileSizeBytes": 1799,
+              "checksum": "79106bcff8ffa01866fa3e7942f0c060",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D07.MLBS.DP1.10098.001.vst_apparentindividual.2015-09.basic.20260106T155703Z.csv",
+              "downloadFileName": null,
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2026/data/DP1.10098.001/MLBS/2015-09/NEON.D07.MLBS.DP1.10098.001.vst_apparentindividual.2015-09.basic.20260106T155703Z.csv",
+              "fileSizeBytes": 360903,
+              "checksum": "c0ff6bd547f019b3eef63e43c69cc11c",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D07.MLBS.DP1.10098.001.EML.20150928-20150930.20260123T000749Z.xml",
+              "downloadFileName": "",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2026/data/DP1.10098.001/MLBS/2015-09/NEON.D07.MLBS.DP1.10098.001.EML.20150928-20150930.20260123T000749Z.xml",
+              "fileSizeBytes": 187281,
+              "checksum": "887169cb82e7993412fe3f5de8a893c7",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D07.MLBS.DP1.10098.001.readme.20260123T000749Z.txt",
+              "downloadFileName": "",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2026/data/DP1.10098.001/MLBS/2015-09/NEON.D07.MLBS.DP1.10098.001.readme.20260123T000749Z.txt",
+              "fileSizeBytes": 50355,
+              "checksum": "9baad89accc647c0ef798afb0bf961c6",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D07.MLBS.DP1.10098.001.variables.20260106T155703Z.csv",
+              "downloadFileName": null,
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2026/data/DP1.10098.001/MLBS/2015-09/NEON.D07.MLBS.DP1.10098.001.variables.20260106T155703Z.csv",
+              "fileSizeBytes": 27324,
+              "checksum": "ef55a83c77c3e7815de47b189fe8a842",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D07.MLBS.DP0.10098.001.categoricalCodes.20260106T155703Z.csv",
+              "downloadFileName": null,
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2026/data/DP1.10098.001/MLBS/2015-09/NEON.D07.MLBS.DP0.10098.001.categoricalCodes.20260106T155703Z.csv",
+              "fileSizeBytes": 37747,
+              "checksum": "b2504b64dceacdbcdf9237d380d6440e",
+              "checksumAlgorithm": "MD5"
+            }
+          ]
+        },
+        {
+          "release": "RELEASE-2026",
+          "productCode": "DP1.10098.001",
+          "domainCode": "D07",
+          "siteCode": "MLBS",
+          "month": "2015-10",
+          "packageType": "basic",
+          "generationDate": "2026-01-23T00:07:49Z",
+          "files": [
+            {
+              "fileName": "NEON.D07.MLBS.DP1.10098.001.vst_apparentindividual.2015-10.basic.20260106T154245Z.csv",
+              "downloadFileName": null,
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2026/data/DP1.10098.001/MLBS/2015-10/NEON.D07.MLBS.DP1.10098.001.vst_apparentindividual.2015-10.basic.20260106T154245Z.csv",
+              "fileSizeBytes": 94382,
+              "checksum": "2b73799a7725c690391c68490b46d93c",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D07.MLBS.DP1.10098.001.vst_mappingandtagging.basic.20260106T154245Z.csv",
+              "downloadFileName": null,
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2026/data/DP1.10098.001/MLBS/2015-10/NEON.D07.MLBS.DP1.10098.001.vst_mappingandtagging.basic.20260106T154245Z.csv",
+              "fileSizeBytes": 882279,
+              "checksum": "9c468d519a8aabf56250cfa8f521c004",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D07.MLBS.DP1.10098.001.vst_identificationHistory.basic.20260106T154245Z.csv",
+              "downloadFileName": null,
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2026/data/DP1.10098.001/MLBS/2015-10/NEON.D07.MLBS.DP1.10098.001.vst_identificationHistory.basic.20260106T154245Z.csv",
+              "fileSizeBytes": 1799,
+              "checksum": "79106bcff8ffa01866fa3e7942f0c060",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D07.MLBS.DP1.10098.001.readme.20260123T000749Z.txt",
+              "downloadFileName": "",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2026/data/DP1.10098.001/MLBS/2015-10/NEON.D07.MLBS.DP1.10098.001.readme.20260123T000749Z.txt",
+              "fileSizeBytes": 50355,
+              "checksum": "e6a87bc65c44da5910d8ec07f917e982",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D07.MLBS.DP0.10098.001.categoricalCodes.20260106T154245Z.csv",
+              "downloadFileName": null,
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2026/data/DP1.10098.001/MLBS/2015-10/NEON.D07.MLBS.DP0.10098.001.categoricalCodes.20260106T154245Z.csv",
+              "fileSizeBytes": 37747,
+              "checksum": "b2504b64dceacdbcdf9237d380d6440e",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D07.MLBS.DP0.10098.001.validation.20260106T154245Z.csv",
+              "downloadFileName": null,
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2026/data/DP1.10098.001/MLBS/2015-10/NEON.D07.MLBS.DP0.10098.001.validation.20260106T154245Z.csv",
+              "fileSizeBytes": 41525,
+              "checksum": "225b90a870114b39e17d25b4c4dbad0b",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D07.MLBS.DP1.10098.001.vst_perplotperyear.2015-10.basic.20260106T154245Z.csv",
+              "downloadFileName": null,
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2026/data/DP1.10098.001/MLBS/2015-10/NEON.D07.MLBS.DP1.10098.001.vst_perplotperyear.2015-10.basic.20260106T154245Z.csv",
+              "fileSizeBytes": 2189,
+              "checksum": "b50c6efea60d76f680bd8503b4a61546",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D07.MLBS.DP1.10098.001.EML.20151001-20151001.20260123T000749Z.xml",
+              "downloadFileName": "",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2026/data/DP1.10098.001/MLBS/2015-10/NEON.D07.MLBS.DP1.10098.001.EML.20151001-20151001.20260123T000749Z.xml",
+              "fileSizeBytes": 187279,
+              "checksum": "ec9ba6db2c7043d639a6bd3d796a1611",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D07.MLBS.DP1.10098.001.variables.20260106T154245Z.csv",
+              "downloadFileName": null,
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2026/data/DP1.10098.001/MLBS/2015-10/NEON.D07.MLBS.DP1.10098.001.variables.20260106T154245Z.csv",
+              "fileSizeBytes": 27324,
+              "checksum": "ef55a83c77c3e7815de47b189fe8a842",
+              "checksumAlgorithm": "MD5"
+            }
+          ]
+        },
+        {
+          "release": "RELEASE-2026",
+          "productCode": "DP1.10098.001",
+          "domainCode": "D07",
+          "siteCode": "MLBS",
+          "month": "2017-10",
+          "packageType": "basic",
+          "generationDate": "2026-01-23T00:07:49Z",
+          "files": [
+            {
+              "fileName": "NEON.D07.MLBS.DP1.10098.001.vst_apparentindividual.2017-10.basic.20260106T155625Z.csv",
+              "downloadFileName": null,
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2026/data/DP1.10098.001/MLBS/2017-10/NEON.D07.MLBS.DP1.10098.001.vst_apparentindividual.2017-10.basic.20260106T155625Z.csv",
+              "fileSizeBytes": 517386,
+              "checksum": "0d5bb94b9b6b914750a2d667a4de037e",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D07.MLBS.DP1.10098.001.vst_perplotperyear.2017-10.basic.20260106T155625Z.csv",
+              "downloadFileName": null,
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2026/data/DP1.10098.001/MLBS/2017-10/NEON.D07.MLBS.DP1.10098.001.vst_perplotperyear.2017-10.basic.20260106T155625Z.csv",
+              "fileSizeBytes": 7329,
+              "checksum": "1104749f9cc1340e901d84dea3cbce99",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D07.MLBS.DP1.10098.001.vst_identificationHistory.basic.20260106T155625Z.csv",
+              "downloadFileName": null,
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2026/data/DP1.10098.001/MLBS/2017-10/NEON.D07.MLBS.DP1.10098.001.vst_identificationHistory.basic.20260106T155625Z.csv",
+              "fileSizeBytes": 1799,
+              "checksum": "79106bcff8ffa01866fa3e7942f0c060",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D07.MLBS.DP1.10098.001.vst_non-woody.2017-10.basic.20260106T155625Z.csv",
+              "downloadFileName": null,
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2026/data/DP1.10098.001/MLBS/2017-10/NEON.D07.MLBS.DP1.10098.001.vst_non-woody.2017-10.basic.20260106T155625Z.csv",
+              "fileSizeBytes": 326456,
+              "checksum": "4c10ab97964d643bb25e6dcf776784f2",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D07.MLBS.DP1.10098.001.readme.20260123T000749Z.txt",
+              "downloadFileName": "",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2026/data/DP1.10098.001/MLBS/2017-10/NEON.D07.MLBS.DP1.10098.001.readme.20260123T000749Z.txt",
+              "fileSizeBytes": 50527,
+              "checksum": "5e6c69805ca1e69bf77c76077d4b216c",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D07.MLBS.DP1.10098.001.vst_mappingandtagging.basic.20260106T155625Z.csv",
+              "downloadFileName": null,
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2026/data/DP1.10098.001/MLBS/2017-10/NEON.D07.MLBS.DP1.10098.001.vst_mappingandtagging.basic.20260106T155625Z.csv",
+              "fileSizeBytes": 882279,
+              "checksum": "9c468d519a8aabf56250cfa8f521c004",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D07.MLBS.DP0.10098.001.categoricalCodes.20260106T155625Z.csv",
+              "downloadFileName": null,
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2026/data/DP1.10098.001/MLBS/2017-10/NEON.D07.MLBS.DP0.10098.001.categoricalCodes.20260106T155625Z.csv",
+              "fileSizeBytes": 37747,
+              "checksum": "b2504b64dceacdbcdf9237d380d6440e",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D07.MLBS.DP1.10098.001.EML.20171002-20171024.20260123T000749Z.xml",
+              "downloadFileName": "",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2026/data/DP1.10098.001/MLBS/2017-10/NEON.D07.MLBS.DP1.10098.001.EML.20171002-20171024.20260123T000749Z.xml",
+              "fileSizeBytes": 227570,
+              "checksum": "d10457e9712bcbe477fe3016f84cec3c",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D07.MLBS.DP1.10098.001.variables.20260106T155625Z.csv",
+              "downloadFileName": null,
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2026/data/DP1.10098.001/MLBS/2017-10/NEON.D07.MLBS.DP1.10098.001.variables.20260106T155625Z.csv",
+              "fileSizeBytes": 27324,
+              "checksum": "ef55a83c77c3e7815de47b189fe8a842",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D07.MLBS.DP0.10098.001.validation.20260106T155625Z.csv",
+              "downloadFileName": null,
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2026/data/DP1.10098.001/MLBS/2017-10/NEON.D07.MLBS.DP0.10098.001.validation.20260106T155625Z.csv",
+              "fileSizeBytes": 41525,
+              "checksum": "225b90a870114b39e17d25b4c4dbad0b",
+              "checksumAlgorithm": "MD5"
+            }
+          ]
+        },
+        {
+          "release": "RELEASE-2026",
+          "productCode": "DP1.10098.001",
+          "domainCode": "D07",
+          "siteCode": "MLBS",
+          "month": "2018-08",
+          "packageType": "basic",
+          "generationDate": "2026-01-23T00:07:49Z",
+          "files": [
+            {
+              "fileName": "NEON.D07.MLBS.DP1.10098.001.vst_identificationHistory.basic.20260106T154748Z.csv",
+              "downloadFileName": null,
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2026/data/DP1.10098.001/MLBS/2018-08/NEON.D07.MLBS.DP1.10098.001.vst_identificationHistory.basic.20260106T154748Z.csv",
+              "fileSizeBytes": 1799,
+              "checksum": "79106bcff8ffa01866fa3e7942f0c060",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D07.MLBS.DP1.10098.001.vst_mappingandtagging.basic.20260106T154748Z.csv",
+              "downloadFileName": null,
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2026/data/DP1.10098.001/MLBS/2018-08/NEON.D07.MLBS.DP1.10098.001.vst_mappingandtagging.basic.20260106T154748Z.csv",
+              "fileSizeBytes": 882279,
+              "checksum": "9c468d519a8aabf56250cfa8f521c004",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D07.MLBS.DP1.10098.001.EML.20180801-20180802.20260123T000749Z.xml",
+              "downloadFileName": "",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2026/data/DP1.10098.001/MLBS/2018-08/NEON.D07.MLBS.DP1.10098.001.EML.20180801-20180802.20260123T000749Z.xml",
+              "fileSizeBytes": 97880,
+              "checksum": "ce309f827298d95fd3fbdf17821a8ce3",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D07.MLBS.DP1.10098.001.variables.20260106T154748Z.csv",
+              "downloadFileName": null,
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2026/data/DP1.10098.001/MLBS/2018-08/NEON.D07.MLBS.DP1.10098.001.variables.20260106T154748Z.csv",
+              "fileSizeBytes": 27324,
+              "checksum": "ef55a83c77c3e7815de47b189fe8a842",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D07.MLBS.DP0.10098.001.categoricalCodes.20260106T154748Z.csv",
+              "downloadFileName": null,
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2026/data/DP1.10098.001/MLBS/2018-08/NEON.D07.MLBS.DP0.10098.001.categoricalCodes.20260106T154748Z.csv",
+              "fileSizeBytes": 37747,
+              "checksum": "b2504b64dceacdbcdf9237d380d6440e",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D07.MLBS.DP1.10098.001.readme.20260123T000749Z.txt",
+              "downloadFileName": "",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2026/data/DP1.10098.001/MLBS/2018-08/NEON.D07.MLBS.DP1.10098.001.readme.20260123T000749Z.txt",
+              "fileSizeBytes": 50222,
+              "checksum": "b1a8a4881cf99eae039025ea058c6ca6",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D07.MLBS.DP1.10098.001.vst_non-woody.2018-08.basic.20260106T154748Z.csv",
+              "downloadFileName": null,
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2026/data/DP1.10098.001/MLBS/2018-08/NEON.D07.MLBS.DP1.10098.001.vst_non-woody.2018-08.basic.20260106T154748Z.csv",
+              "fileSizeBytes": 322683,
+              "checksum": "bf006b71ffbe2849e0c79dc39cad9e93",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D07.MLBS.DP0.10098.001.validation.20260106T154748Z.csv",
+              "downloadFileName": null,
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2026/data/DP1.10098.001/MLBS/2018-08/NEON.D07.MLBS.DP0.10098.001.validation.20260106T154748Z.csv",
+              "fileSizeBytes": 41525,
+              "checksum": "225b90a870114b39e17d25b4c4dbad0b",
+              "checksumAlgorithm": "MD5"
+            }
+          ]
+        },
+        {
+          "release": "RELEASE-2026",
+          "productCode": "DP1.10098.001",
+          "domainCode": "D07",
+          "siteCode": "MLBS",
+          "month": "2018-09",
+          "packageType": "basic",
+          "generationDate": "2026-01-23T00:07:49Z",
+          "files": [
+            {
+              "fileName": "NEON.D07.MLBS.DP1.10098.001.vst_mappingandtagging.basic.20260106T155111Z.csv",
+              "downloadFileName": null,
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2026/data/DP1.10098.001/MLBS/2018-09/NEON.D07.MLBS.DP1.10098.001.vst_mappingandtagging.basic.20260106T155111Z.csv",
+              "fileSizeBytes": 882279,
+              "checksum": "9c468d519a8aabf56250cfa8f521c004",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D07.MLBS.DP1.10098.001.vst_perplotperyear.2018-09.basic.20260106T155111Z.csv",
+              "downloadFileName": null,
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2026/data/DP1.10098.001/MLBS/2018-09/NEON.D07.MLBS.DP1.10098.001.vst_perplotperyear.2018-09.basic.20260106T155111Z.csv",
+              "fileSizeBytes": 3077,
+              "checksum": "b3192bf576a44d3a538451bb7037b348",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D07.MLBS.DP1.10098.001.vst_identificationHistory.basic.20260106T155111Z.csv",
+              "downloadFileName": null,
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2026/data/DP1.10098.001/MLBS/2018-09/NEON.D07.MLBS.DP1.10098.001.vst_identificationHistory.basic.20260106T155111Z.csv",
+              "fileSizeBytes": 1799,
+              "checksum": "79106bcff8ffa01866fa3e7942f0c060",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D07.MLBS.DP0.10098.001.validation.20260106T155111Z.csv",
+              "downloadFileName": null,
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2026/data/DP1.10098.001/MLBS/2018-09/NEON.D07.MLBS.DP0.10098.001.validation.20260106T155111Z.csv",
+              "fileSizeBytes": 41525,
+              "checksum": "225b90a870114b39e17d25b4c4dbad0b",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D07.MLBS.DP1.10098.001.EML.20180924-20180927.20260123T000749Z.xml",
+              "downloadFileName": "",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2026/data/DP1.10098.001/MLBS/2018-09/NEON.D07.MLBS.DP1.10098.001.EML.20180924-20180927.20260123T000749Z.xml",
+              "fileSizeBytes": 188547,
+              "checksum": "0e916dc5f2143e3c0abe029ec036f521",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D07.MLBS.DP1.10098.001.vst_apparentindividual.2018-09.basic.20260106T155111Z.csv",
+              "downloadFileName": null,
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2026/data/DP1.10098.001/MLBS/2018-09/NEON.D07.MLBS.DP1.10098.001.vst_apparentindividual.2018-09.basic.20260106T155111Z.csv",
+              "fileSizeBytes": 115322,
+              "checksum": "789ef478eca9d70ffa1b67b5ac025f8f",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D07.MLBS.DP1.10098.001.readme.20260123T000749Z.txt",
+              "downloadFileName": "",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2026/data/DP1.10098.001/MLBS/2018-09/NEON.D07.MLBS.DP1.10098.001.readme.20260123T000749Z.txt",
+              "fileSizeBytes": 50355,
+              "checksum": "65ce525c282d48c8c3740a7288f4726e",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D07.MLBS.DP0.10098.001.categoricalCodes.20260106T155111Z.csv",
+              "downloadFileName": null,
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2026/data/DP1.10098.001/MLBS/2018-09/NEON.D07.MLBS.DP0.10098.001.categoricalCodes.20260106T155111Z.csv",
+              "fileSizeBytes": 37747,
+              "checksum": "b2504b64dceacdbcdf9237d380d6440e",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D07.MLBS.DP1.10098.001.variables.20260106T155111Z.csv",
+              "downloadFileName": null,
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2026/data/DP1.10098.001/MLBS/2018-09/NEON.D07.MLBS.DP1.10098.001.variables.20260106T155111Z.csv",
+              "fileSizeBytes": 27324,
+              "checksum": "ef55a83c77c3e7815de47b189fe8a842",
+              "checksumAlgorithm": "MD5"
+            }
+          ]
+        },
+        {
+          "release": "RELEASE-2026",
+          "productCode": "DP1.10098.001",
+          "domainCode": "D07",
+          "siteCode": "MLBS",
+          "month": "2018-10",
+          "packageType": "basic",
+          "generationDate": "2026-01-23T00:07:49Z",
+          "files": [
+            {
+              "fileName": "NEON.D07.MLBS.DP0.10098.001.categoricalCodes.20260106T155034Z.csv",
+              "downloadFileName": null,
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2026/data/DP1.10098.001/MLBS/2018-10/NEON.D07.MLBS.DP0.10098.001.categoricalCodes.20260106T155034Z.csv",
+              "fileSizeBytes": 37747,
+              "checksum": "b2504b64dceacdbcdf9237d380d6440e",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D07.MLBS.DP1.10098.001.variables.20260106T155034Z.csv",
+              "downloadFileName": null,
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2026/data/DP1.10098.001/MLBS/2018-10/NEON.D07.MLBS.DP1.10098.001.variables.20260106T155034Z.csv",
+              "fileSizeBytes": 27324,
+              "checksum": "ef55a83c77c3e7815de47b189fe8a842",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D07.MLBS.DP1.10098.001.readme.20260123T000749Z.txt",
+              "downloadFileName": "",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2026/data/DP1.10098.001/MLBS/2018-10/NEON.D07.MLBS.DP1.10098.001.readme.20260123T000749Z.txt",
+              "fileSizeBytes": 50355,
+              "checksum": "4ea86d17b19933c9b405822f03e8a7d8",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D07.MLBS.DP0.10098.001.validation.20260106T155034Z.csv",
+              "downloadFileName": null,
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2026/data/DP1.10098.001/MLBS/2018-10/NEON.D07.MLBS.DP0.10098.001.validation.20260106T155034Z.csv",
+              "fileSizeBytes": 41525,
+              "checksum": "225b90a870114b39e17d25b4c4dbad0b",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D07.MLBS.DP1.10098.001.vst_mappingandtagging.basic.20260106T155034Z.csv",
+              "downloadFileName": null,
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2026/data/DP1.10098.001/MLBS/2018-10/NEON.D07.MLBS.DP1.10098.001.vst_mappingandtagging.basic.20260106T155034Z.csv",
+              "fileSizeBytes": 882279,
+              "checksum": "9c468d519a8aabf56250cfa8f521c004",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D07.MLBS.DP1.10098.001.EML.20181002-20181031.20260123T000749Z.xml",
+              "downloadFileName": "",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2026/data/DP1.10098.001/MLBS/2018-10/NEON.D07.MLBS.DP1.10098.001.EML.20181002-20181031.20260123T000749Z.xml",
+              "fileSizeBytes": 188549,
+              "checksum": "cab98e8d60faf1720ed13beb69f3af8b",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D07.MLBS.DP1.10098.001.vst_perplotperyear.2018-10.basic.20260106T155034Z.csv",
+              "downloadFileName": null,
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2026/data/DP1.10098.001/MLBS/2018-10/NEON.D07.MLBS.DP1.10098.001.vst_perplotperyear.2018-10.basic.20260106T155034Z.csv",
+              "fileSizeBytes": 10048,
+              "checksum": "e17251ceab3423fcfabb5f16eb61a59e",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D07.MLBS.DP1.10098.001.vst_apparentindividual.2018-10.basic.20260106T155034Z.csv",
+              "downloadFileName": null,
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2026/data/DP1.10098.001/MLBS/2018-10/NEON.D07.MLBS.DP1.10098.001.vst_apparentindividual.2018-10.basic.20260106T155034Z.csv",
+              "fileSizeBytes": 630122,
+              "checksum": "095ce0f14f9494f4cffc342d48a886e1",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D07.MLBS.DP1.10098.001.vst_identificationHistory.basic.20260106T155034Z.csv",
+              "downloadFileName": null,
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2026/data/DP1.10098.001/MLBS/2018-10/NEON.D07.MLBS.DP1.10098.001.vst_identificationHistory.basic.20260106T155034Z.csv",
+              "fileSizeBytes": 1799,
+              "checksum": "79106bcff8ffa01866fa3e7942f0c060",
+              "checksumAlgorithm": "MD5"
+            }
+          ]
+        },
+        {
+          "release": "RELEASE-2026",
+          "productCode": "DP1.10098.001",
+          "domainCode": "D07",
+          "siteCode": "MLBS",
+          "month": "2018-11",
+          "packageType": "basic",
+          "generationDate": "2026-01-23T00:07:49Z",
+          "files": [
+            {
+              "fileName": "NEON.D07.MLBS.DP1.10098.001.EML.20181101-20181127.20260123T000749Z.xml",
+              "downloadFileName": "",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2026/data/DP1.10098.001/MLBS/2018-11/NEON.D07.MLBS.DP1.10098.001.EML.20181101-20181127.20260123T000749Z.xml",
+              "fileSizeBytes": 187570,
+              "checksum": "5e01205713c71c7ff96715baea04bf4a",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D07.MLBS.DP1.10098.001.vst_perplotperyear.2018-11.basic.20260106T154702Z.csv",
+              "downloadFileName": null,
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2026/data/DP1.10098.001/MLBS/2018-11/NEON.D07.MLBS.DP1.10098.001.vst_perplotperyear.2018-11.basic.20260106T154702Z.csv",
+              "fileSizeBytes": 2549,
+              "checksum": "cb000f0ac8c800e0846cb284133846eb",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D07.MLBS.DP1.10098.001.vst_apparentindividual.2018-11.basic.20260106T154702Z.csv",
+              "downloadFileName": null,
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2026/data/DP1.10098.001/MLBS/2018-11/NEON.D07.MLBS.DP1.10098.001.vst_apparentindividual.2018-11.basic.20260106T154702Z.csv",
+              "fileSizeBytes": 137622,
+              "checksum": "aa5ed98f9afb0222413727eb14bb2fdd",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D07.MLBS.DP0.10098.001.validation.20260106T154702Z.csv",
+              "downloadFileName": null,
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2026/data/DP1.10098.001/MLBS/2018-11/NEON.D07.MLBS.DP0.10098.001.validation.20260106T154702Z.csv",
+              "fileSizeBytes": 41525,
+              "checksum": "225b90a870114b39e17d25b4c4dbad0b",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D07.MLBS.DP1.10098.001.variables.20260106T154702Z.csv",
+              "downloadFileName": null,
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2026/data/DP1.10098.001/MLBS/2018-11/NEON.D07.MLBS.DP1.10098.001.variables.20260106T154702Z.csv",
+              "fileSizeBytes": 27324,
+              "checksum": "ef55a83c77c3e7815de47b189fe8a842",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D07.MLBS.DP1.10098.001.vst_mappingandtagging.basic.20260106T154702Z.csv",
+              "downloadFileName": null,
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2026/data/DP1.10098.001/MLBS/2018-11/NEON.D07.MLBS.DP1.10098.001.vst_mappingandtagging.basic.20260106T154702Z.csv",
+              "fileSizeBytes": 882279,
+              "checksum": "9c468d519a8aabf56250cfa8f521c004",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D07.MLBS.DP1.10098.001.vst_identificationHistory.basic.20260106T154702Z.csv",
+              "downloadFileName": null,
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2026/data/DP1.10098.001/MLBS/2018-11/NEON.D07.MLBS.DP1.10098.001.vst_identificationHistory.basic.20260106T154702Z.csv",
+              "fileSizeBytes": 1799,
+              "checksum": "79106bcff8ffa01866fa3e7942f0c060",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D07.MLBS.DP1.10098.001.readme.20260123T000749Z.txt",
+              "downloadFileName": "",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2026/data/DP1.10098.001/MLBS/2018-11/NEON.D07.MLBS.DP1.10098.001.readme.20260123T000749Z.txt",
+              "fileSizeBytes": 50355,
+              "checksum": "1074785ed424ad1a6669f444b602cfa8",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D07.MLBS.DP0.10098.001.categoricalCodes.20260106T154702Z.csv",
+              "downloadFileName": null,
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2026/data/DP1.10098.001/MLBS/2018-11/NEON.D07.MLBS.DP0.10098.001.categoricalCodes.20260106T154702Z.csv",
+              "fileSizeBytes": 37747,
+              "checksum": "b2504b64dceacdbcdf9237d380d6440e",
+              "checksumAlgorithm": "MD5"
+            }
+          ]
+        },
+        {
+          "release": "RELEASE-2026",
+          "productCode": "DP1.10098.001",
+          "domainCode": "D07",
+          "siteCode": "MLBS",
+          "month": "2019-07",
+          "packageType": "basic",
+          "generationDate": "2026-01-23T00:07:49Z",
+          "files": [
+            {
+              "fileName": "NEON.D07.MLBS.DP1.10098.001.vst_perplotperyear.2019-07.basic.20260106T154851Z.csv",
+              "downloadFileName": null,
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2026/data/DP1.10098.001/MLBS/2019-07/NEON.D07.MLBS.DP1.10098.001.vst_perplotperyear.2019-07.basic.20260106T154851Z.csv",
+              "fileSizeBytes": 2531,
+              "checksum": "027aab6b3e639d2f0f0f72b62f44d75e",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D07.MLBS.DP0.10098.001.validation.20260106T154851Z.csv",
+              "downloadFileName": null,
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2026/data/DP1.10098.001/MLBS/2019-07/NEON.D07.MLBS.DP0.10098.001.validation.20260106T154851Z.csv",
+              "fileSizeBytes": 41525,
+              "checksum": "225b90a870114b39e17d25b4c4dbad0b",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D07.MLBS.DP1.10098.001.vst_non-woody.2019-07.basic.20260106T154851Z.csv",
+              "downloadFileName": null,
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2026/data/DP1.10098.001/MLBS/2019-07/NEON.D07.MLBS.DP1.10098.001.vst_non-woody.2019-07.basic.20260106T154851Z.csv",
+              "fileSizeBytes": 89603,
+              "checksum": "c0669b5302b1a89db37b07e3b8655066",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D07.MLBS.DP1.10098.001.EML.20190722-20190723.20260123T000749Z.xml",
+              "downloadFileName": "",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2026/data/DP1.10098.001/MLBS/2019-07/NEON.D07.MLBS.DP1.10098.001.EML.20190722-20190723.20260123T000749Z.xml",
+              "fileSizeBytes": 149839,
+              "checksum": "833aeba7a6f183066e67bf4f2353332d",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D07.MLBS.DP0.10098.001.categoricalCodes.20260106T154851Z.csv",
+              "downloadFileName": null,
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2026/data/DP1.10098.001/MLBS/2019-07/NEON.D07.MLBS.DP0.10098.001.categoricalCodes.20260106T154851Z.csv",
+              "fileSizeBytes": 37747,
+              "checksum": "b2504b64dceacdbcdf9237d380d6440e",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D07.MLBS.DP1.10098.001.vst_identificationHistory.basic.20260106T154851Z.csv",
+              "downloadFileName": null,
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2026/data/DP1.10098.001/MLBS/2019-07/NEON.D07.MLBS.DP1.10098.001.vst_identificationHistory.basic.20260106T154851Z.csv",
+              "fileSizeBytes": 1799,
+              "checksum": "79106bcff8ffa01866fa3e7942f0c060",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D07.MLBS.DP1.10098.001.readme.20260123T000749Z.txt",
+              "downloadFileName": "",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2026/data/DP1.10098.001/MLBS/2019-07/NEON.D07.MLBS.DP1.10098.001.readme.20260123T000749Z.txt",
+              "fileSizeBytes": 50380,
+              "checksum": "06eec7e760eaaf891a3f090140d79ff5",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D07.MLBS.DP1.10098.001.variables.20260106T154851Z.csv",
+              "downloadFileName": null,
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2026/data/DP1.10098.001/MLBS/2019-07/NEON.D07.MLBS.DP1.10098.001.variables.20260106T154851Z.csv",
+              "fileSizeBytes": 27324,
+              "checksum": "ef55a83c77c3e7815de47b189fe8a842",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D07.MLBS.DP1.10098.001.vst_mappingandtagging.basic.20260106T154851Z.csv",
+              "downloadFileName": null,
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2026/data/DP1.10098.001/MLBS/2019-07/NEON.D07.MLBS.DP1.10098.001.vst_mappingandtagging.basic.20260106T154851Z.csv",
+              "fileSizeBytes": 882279,
+              "checksum": "9c468d519a8aabf56250cfa8f521c004",
+              "checksumAlgorithm": "MD5"
+            }
+          ]
+        },
+        {
+          "release": "RELEASE-2026",
+          "productCode": "DP1.10098.001",
+          "domainCode": "D07",
+          "siteCode": "MLBS",
+          "month": "2019-10",
+          "packageType": "basic",
+          "generationDate": "2026-01-23T00:07:49Z",
+          "files": [
+            {
+              "fileName": "NEON.D07.MLBS.DP1.10098.001.vst_apparentindividual.2019-10.basic.20260106T155930Z.csv",
+              "downloadFileName": null,
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2026/data/DP1.10098.001/MLBS/2019-10/NEON.D07.MLBS.DP1.10098.001.vst_apparentindividual.2019-10.basic.20260106T155930Z.csv",
+              "fileSizeBytes": 334994,
+              "checksum": "c39eccfc3f22a5f3bb46802e736df21a",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D07.MLBS.DP1.10098.001.variables.20260106T155930Z.csv",
+              "downloadFileName": null,
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2026/data/DP1.10098.001/MLBS/2019-10/NEON.D07.MLBS.DP1.10098.001.variables.20260106T155930Z.csv",
+              "fileSizeBytes": 27324,
+              "checksum": "ef55a83c77c3e7815de47b189fe8a842",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D07.MLBS.DP1.10098.001.vst_identificationHistory.basic.20260106T155930Z.csv",
+              "downloadFileName": null,
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2026/data/DP1.10098.001/MLBS/2019-10/NEON.D07.MLBS.DP1.10098.001.vst_identificationHistory.basic.20260106T155930Z.csv",
+              "fileSizeBytes": 1799,
+              "checksum": "79106bcff8ffa01866fa3e7942f0c060",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D07.MLBS.DP1.10098.001.EML.20191007-20191030.20260123T000749Z.xml",
+              "downloadFileName": "",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2026/data/DP1.10098.001/MLBS/2019-10/NEON.D07.MLBS.DP1.10098.001.EML.20191007-20191030.20260123T000749Z.xml",
+              "fileSizeBytes": 190957,
+              "checksum": "e3c014e4f5ed9347c4eab493e4b4792f",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D07.MLBS.DP1.10098.001.readme.20260123T000749Z.txt",
+              "downloadFileName": "",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2026/data/DP1.10098.001/MLBS/2019-10/NEON.D07.MLBS.DP1.10098.001.readme.20260123T000749Z.txt",
+              "fileSizeBytes": 50355,
+              "checksum": "d99552f6df50dd8fc7f59a5468f19b62",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D07.MLBS.DP0.10098.001.validation.20260106T155930Z.csv",
+              "downloadFileName": null,
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2026/data/DP1.10098.001/MLBS/2019-10/NEON.D07.MLBS.DP0.10098.001.validation.20260106T155930Z.csv",
+              "fileSizeBytes": 41525,
+              "checksum": "225b90a870114b39e17d25b4c4dbad0b",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D07.MLBS.DP1.10098.001.vst_perplotperyear.2019-10.basic.20260106T155930Z.csv",
+              "downloadFileName": null,
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2026/data/DP1.10098.001/MLBS/2019-10/NEON.D07.MLBS.DP1.10098.001.vst_perplotperyear.2019-10.basic.20260106T155930Z.csv",
+              "fileSizeBytes": 7233,
+              "checksum": "892e641493209478d115dff4dc1a571e",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D07.MLBS.DP1.10098.001.vst_mappingandtagging.basic.20260106T155930Z.csv",
+              "downloadFileName": null,
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2026/data/DP1.10098.001/MLBS/2019-10/NEON.D07.MLBS.DP1.10098.001.vst_mappingandtagging.basic.20260106T155930Z.csv",
+              "fileSizeBytes": 882279,
+              "checksum": "9c468d519a8aabf56250cfa8f521c004",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D07.MLBS.DP0.10098.001.categoricalCodes.20260106T155930Z.csv",
+              "downloadFileName": null,
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2026/data/DP1.10098.001/MLBS/2019-10/NEON.D07.MLBS.DP0.10098.001.categoricalCodes.20260106T155930Z.csv",
+              "fileSizeBytes": 37747,
+              "checksum": "b2504b64dceacdbcdf9237d380d6440e",
+              "checksumAlgorithm": "MD5"
+            }
+          ]
+        },
+        {
+          "release": "RELEASE-2026",
+          "productCode": "DP1.10098.001",
+          "domainCode": "D07",
+          "siteCode": "MLBS",
+          "month": "2019-11",
+          "packageType": "basic",
+          "generationDate": "2026-01-23T00:07:49Z",
+          "files": [
+            {
+              "fileName": "NEON.D07.MLBS.DP1.10098.001.vst_mappingandtagging.basic.20260106T154824Z.csv",
+              "downloadFileName": null,
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2026/data/DP1.10098.001/MLBS/2019-11/NEON.D07.MLBS.DP1.10098.001.vst_mappingandtagging.basic.20260106T154824Z.csv",
+              "fileSizeBytes": 882279,
+              "checksum": "9c468d519a8aabf56250cfa8f521c004",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D07.MLBS.DP1.10098.001.readme.20260123T000749Z.txt",
+              "downloadFileName": "",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2026/data/DP1.10098.001/MLBS/2019-11/NEON.D07.MLBS.DP1.10098.001.readme.20260123T000749Z.txt",
+              "fileSizeBytes": 50355,
+              "checksum": "6c32ddaacc7c85714516c5db99a6fa14",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D07.MLBS.DP1.10098.001.variables.20260106T154824Z.csv",
+              "downloadFileName": null,
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2026/data/DP1.10098.001/MLBS/2019-11/NEON.D07.MLBS.DP1.10098.001.variables.20260106T154824Z.csv",
+              "fileSizeBytes": 27324,
+              "checksum": "ef55a83c77c3e7815de47b189fe8a842",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D07.MLBS.DP1.10098.001.vst_identificationHistory.basic.20260106T154824Z.csv",
+              "downloadFileName": null,
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2026/data/DP1.10098.001/MLBS/2019-11/NEON.D07.MLBS.DP1.10098.001.vst_identificationHistory.basic.20260106T154824Z.csv",
+              "fileSizeBytes": 1799,
+              "checksum": "79106bcff8ffa01866fa3e7942f0c060",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D07.MLBS.DP0.10098.001.validation.20260106T154824Z.csv",
+              "downloadFileName": null,
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2026/data/DP1.10098.001/MLBS/2019-11/NEON.D07.MLBS.DP0.10098.001.validation.20260106T154824Z.csv",
+              "fileSizeBytes": 41525,
+              "checksum": "225b90a870114b39e17d25b4c4dbad0b",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D07.MLBS.DP0.10098.001.categoricalCodes.20260106T154824Z.csv",
+              "downloadFileName": null,
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2026/data/DP1.10098.001/MLBS/2019-11/NEON.D07.MLBS.DP0.10098.001.categoricalCodes.20260106T154824Z.csv",
+              "fileSizeBytes": 37747,
+              "checksum": "b2504b64dceacdbcdf9237d380d6440e",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D07.MLBS.DP1.10098.001.vst_apparentindividual.2019-11.basic.20260106T154824Z.csv",
+              "downloadFileName": null,
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2026/data/DP1.10098.001/MLBS/2019-11/NEON.D07.MLBS.DP1.10098.001.vst_apparentindividual.2019-11.basic.20260106T154824Z.csv",
+              "fileSizeBytes": 169065,
+              "checksum": "0fec54b6d862a04f482b50b66eaa17cc",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D07.MLBS.DP1.10098.001.vst_perplotperyear.2019-11.basic.20260106T154824Z.csv",
+              "downloadFileName": null,
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2026/data/DP1.10098.001/MLBS/2019-11/NEON.D07.MLBS.DP1.10098.001.vst_perplotperyear.2019-11.basic.20260106T154824Z.csv",
+              "fileSizeBytes": 1917,
+              "checksum": "2997d6fee7fba18a9819c0a20af846fc",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D07.MLBS.DP1.10098.001.EML.20191104-20191107.20260123T000749Z.xml",
+              "downloadFileName": "",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2026/data/DP1.10098.001/MLBS/2019-11/NEON.D07.MLBS.DP1.10098.001.EML.20191104-20191107.20260123T000749Z.xml",
+              "fileSizeBytes": 190955,
+              "checksum": "7e0f2f07ab56019315f06ae6263df58a",
+              "checksumAlgorithm": "MD5"
+            }
+          ]
+        },
+        {
+          "release": "RELEASE-2026",
+          "productCode": "DP1.10098.001",
+          "domainCode": "D07",
+          "siteCode": "MLBS",
+          "month": "2021-03",
+          "packageType": "basic",
+          "generationDate": "2026-01-23T00:07:49Z",
+          "files": [
+            {
+              "fileName": "NEON.D07.MLBS.DP1.10098.001.vst_identificationHistory.basic.20260106T154503Z.csv",
+              "downloadFileName": null,
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2026/data/DP1.10098.001/MLBS/2021-03/NEON.D07.MLBS.DP1.10098.001.vst_identificationHistory.basic.20260106T154503Z.csv",
+              "fileSizeBytes": 1799,
+              "checksum": "79106bcff8ffa01866fa3e7942f0c060",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D07.MLBS.DP1.10098.001.variables.20260106T154503Z.csv",
+              "downloadFileName": null,
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2026/data/DP1.10098.001/MLBS/2021-03/NEON.D07.MLBS.DP1.10098.001.variables.20260106T154503Z.csv",
+              "fileSizeBytes": 27324,
+              "checksum": "ef55a83c77c3e7815de47b189fe8a842",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D07.MLBS.DP0.10098.001.categoricalCodes.20260106T154503Z.csv",
+              "downloadFileName": null,
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2026/data/DP1.10098.001/MLBS/2021-03/NEON.D07.MLBS.DP0.10098.001.categoricalCodes.20260106T154503Z.csv",
+              "fileSizeBytes": 37747,
+              "checksum": "b2504b64dceacdbcdf9237d380d6440e",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D07.MLBS.DP1.10098.001.readme.20260123T000749Z.txt",
+              "downloadFileName": "",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2026/data/DP1.10098.001/MLBS/2021-03/NEON.D07.MLBS.DP1.10098.001.readme.20260123T000749Z.txt",
+              "fileSizeBytes": 50355,
+              "checksum": "31ed29d08aab5f025061d40e8b9240df",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D07.MLBS.DP1.10098.001.vst_apparentindividual.2021-03.basic.20260106T154503Z.csv",
+              "downloadFileName": null,
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2026/data/DP1.10098.001/MLBS/2021-03/NEON.D07.MLBS.DP1.10098.001.vst_apparentindividual.2021-03.basic.20260106T154503Z.csv",
+              "fileSizeBytes": 152316,
+              "checksum": "22bf17f65ecd263743b24f121708559e",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D07.MLBS.DP0.10098.001.validation.20260106T154503Z.csv",
+              "downloadFileName": null,
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2026/data/DP1.10098.001/MLBS/2021-03/NEON.D07.MLBS.DP0.10098.001.validation.20260106T154503Z.csv",
+              "fileSizeBytes": 41525,
+              "checksum": "225b90a870114b39e17d25b4c4dbad0b",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D07.MLBS.DP1.10098.001.vst_perplotperyear.2021-03.basic.20260106T154503Z.csv",
+              "downloadFileName": null,
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2026/data/DP1.10098.001/MLBS/2021-03/NEON.D07.MLBS.DP1.10098.001.vst_perplotperyear.2021-03.basic.20260106T154503Z.csv",
+              "fileSizeBytes": 2413,
+              "checksum": "3f308242a5779638e379736f7df3ed89",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D07.MLBS.DP1.10098.001.vst_mappingandtagging.basic.20260106T154503Z.csv",
+              "downloadFileName": null,
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2026/data/DP1.10098.001/MLBS/2021-03/NEON.D07.MLBS.DP1.10098.001.vst_mappingandtagging.basic.20260106T154503Z.csv",
+              "fileSizeBytes": 882279,
+              "checksum": "9c468d519a8aabf56250cfa8f521c004",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D07.MLBS.DP1.10098.001.EML.20210329-20210331.20260123T000749Z.xml",
+              "downloadFileName": "",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2026/data/DP1.10098.001/MLBS/2021-03/NEON.D07.MLBS.DP1.10098.001.EML.20210329-20210331.20260123T000749Z.xml",
+              "fileSizeBytes": 193012,
+              "checksum": "599574a707aec5c7c7fb278223402305",
+              "checksumAlgorithm": "MD5"
+            }
+          ]
+        },
+        {
+          "release": "RELEASE-2026",
+          "productCode": "DP1.10098.001",
+          "domainCode": "D07",
+          "siteCode": "MLBS",
+          "month": "2021-04",
+          "packageType": "basic",
+          "generationDate": "2026-01-23T00:07:49Z",
+          "files": [
+            {
+              "fileName": "NEON.D07.MLBS.DP1.10098.001.readme.20260123T000749Z.txt",
+              "downloadFileName": "",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2026/data/DP1.10098.001/MLBS/2021-04/NEON.D07.MLBS.DP1.10098.001.readme.20260123T000749Z.txt",
+              "fileSizeBytes": 50355,
+              "checksum": "7b575926a0ab93ddd8395d8439f2c93a",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D07.MLBS.DP1.10098.001.vst_mappingandtagging.basic.20260106T154545Z.csv",
+              "downloadFileName": null,
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2026/data/DP1.10098.001/MLBS/2021-04/NEON.D07.MLBS.DP1.10098.001.vst_mappingandtagging.basic.20260106T154545Z.csv",
+              "fileSizeBytes": 882279,
+              "checksum": "9c468d519a8aabf56250cfa8f521c004",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D07.MLBS.DP1.10098.001.variables.20260106T154545Z.csv",
+              "downloadFileName": null,
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2026/data/DP1.10098.001/MLBS/2021-04/NEON.D07.MLBS.DP1.10098.001.variables.20260106T154545Z.csv",
+              "fileSizeBytes": 27324,
+              "checksum": "ef55a83c77c3e7815de47b189fe8a842",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D07.MLBS.DP0.10098.001.categoricalCodes.20260106T154545Z.csv",
+              "downloadFileName": null,
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2026/data/DP1.10098.001/MLBS/2021-04/NEON.D07.MLBS.DP0.10098.001.categoricalCodes.20260106T154545Z.csv",
+              "fileSizeBytes": 37747,
+              "checksum": "b2504b64dceacdbcdf9237d380d6440e",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D07.MLBS.DP1.10098.001.vst_apparentindividual.2021-04.basic.20260106T154545Z.csv",
+              "downloadFileName": null,
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2026/data/DP1.10098.001/MLBS/2021-04/NEON.D07.MLBS.DP1.10098.001.vst_apparentindividual.2021-04.basic.20260106T154545Z.csv",
+              "fileSizeBytes": 21400,
+              "checksum": "0905a20d676f6e87ffcb2bdcdff8488e",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D07.MLBS.DP1.10098.001.vst_identificationHistory.basic.20260106T154545Z.csv",
+              "downloadFileName": null,
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2026/data/DP1.10098.001/MLBS/2021-04/NEON.D07.MLBS.DP1.10098.001.vst_identificationHistory.basic.20260106T154545Z.csv",
+              "fileSizeBytes": 1799,
+              "checksum": "79106bcff8ffa01866fa3e7942f0c060",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D07.MLBS.DP1.10098.001.vst_perplotperyear.2021-04.basic.20260106T154545Z.csv",
+              "downloadFileName": null,
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2026/data/DP1.10098.001/MLBS/2021-04/NEON.D07.MLBS.DP1.10098.001.vst_perplotperyear.2021-04.basic.20260106T154545Z.csv",
+              "fileSizeBytes": 1189,
+              "checksum": "ded70857210e2d1e7115ba8d7f411a82",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D07.MLBS.DP1.10098.001.EML.20210401-20210401.20260123T000749Z.xml",
+              "downloadFileName": "",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2026/data/DP1.10098.001/MLBS/2021-04/NEON.D07.MLBS.DP1.10098.001.EML.20210401-20210401.20260123T000749Z.xml",
+              "fileSizeBytes": 193011,
+              "checksum": "3ce60c53e9f5349b76e172f00f69e2ec",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D07.MLBS.DP0.10098.001.validation.20260106T154545Z.csv",
+              "downloadFileName": null,
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2026/data/DP1.10098.001/MLBS/2021-04/NEON.D07.MLBS.DP0.10098.001.validation.20260106T154545Z.csv",
+              "fileSizeBytes": 41525,
+              "checksum": "225b90a870114b39e17d25b4c4dbad0b",
+              "checksumAlgorithm": "MD5"
+            }
+          ]
+        },
+        {
+          "release": "RELEASE-2026",
+          "productCode": "DP1.10098.001",
+          "domainCode": "D07",
+          "siteCode": "MLBS",
+          "month": "2021-10",
+          "packageType": "basic",
+          "generationDate": "2026-01-23T00:07:49Z",
+          "files": [
+            {
+              "fileName": "NEON.D07.MLBS.DP1.10098.001.vst_identificationHistory.basic.20260106T155030Z.csv",
+              "downloadFileName": null,
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2026/data/DP1.10098.001/MLBS/2021-10/NEON.D07.MLBS.DP1.10098.001.vst_identificationHistory.basic.20260106T155030Z.csv",
+              "fileSizeBytes": 1799,
+              "checksum": "79106bcff8ffa01866fa3e7942f0c060",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D07.MLBS.DP1.10098.001.vst_mappingandtagging.basic.20260106T155030Z.csv",
+              "downloadFileName": null,
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2026/data/DP1.10098.001/MLBS/2021-10/NEON.D07.MLBS.DP1.10098.001.vst_mappingandtagging.basic.20260106T155030Z.csv",
+              "fileSizeBytes": 882279,
+              "checksum": "9c468d519a8aabf56250cfa8f521c004",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D07.MLBS.DP0.10098.001.categoricalCodes.20260106T155030Z.csv",
+              "downloadFileName": null,
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2026/data/DP1.10098.001/MLBS/2021-10/NEON.D07.MLBS.DP0.10098.001.categoricalCodes.20260106T155030Z.csv",
+              "fileSizeBytes": 37747,
+              "checksum": "b2504b64dceacdbcdf9237d380d6440e",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D07.MLBS.DP1.10098.001.vst_perplotperyear.2021-10.basic.20260106T155030Z.csv",
+              "downloadFileName": null,
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2026/data/DP1.10098.001/MLBS/2021-10/NEON.D07.MLBS.DP1.10098.001.vst_perplotperyear.2021-10.basic.20260106T155030Z.csv",
+              "fileSizeBytes": 3129,
+              "checksum": "c78dfe13bbe3fe96dacb39b5671ba26f",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D07.MLBS.DP0.10098.001.validation.20260106T155030Z.csv",
+              "downloadFileName": null,
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2026/data/DP1.10098.001/MLBS/2021-10/NEON.D07.MLBS.DP0.10098.001.validation.20260106T155030Z.csv",
+              "fileSizeBytes": 41525,
+              "checksum": "225b90a870114b39e17d25b4c4dbad0b",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D07.MLBS.DP1.10098.001.vst_apparentindividual.2021-10.basic.20260106T155030Z.csv",
+              "downloadFileName": null,
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2026/data/DP1.10098.001/MLBS/2021-10/NEON.D07.MLBS.DP1.10098.001.vst_apparentindividual.2021-10.basic.20260106T155030Z.csv",
+              "fileSizeBytes": 220065,
+              "checksum": "c9bf934d74e47c2cda51b5c375808960",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D07.MLBS.DP1.10098.001.readme.20260123T000749Z.txt",
+              "downloadFileName": "",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2026/data/DP1.10098.001/MLBS/2021-10/NEON.D07.MLBS.DP1.10098.001.readme.20260123T000749Z.txt",
+              "fileSizeBytes": 50355,
+              "checksum": "08730f2abc71d3fe56cada9f41fbb369",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D07.MLBS.DP1.10098.001.EML.20211004-20211028.20260123T000749Z.xml",
+              "downloadFileName": "",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2026/data/DP1.10098.001/MLBS/2021-10/NEON.D07.MLBS.DP1.10098.001.EML.20211004-20211028.20260123T000749Z.xml",
+              "fileSizeBytes": 193012,
+              "checksum": "dcfe0bfd3e8cd81b3316050bb51980ac",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D07.MLBS.DP1.10098.001.variables.20260106T155030Z.csv",
+              "downloadFileName": null,
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2026/data/DP1.10098.001/MLBS/2021-10/NEON.D07.MLBS.DP1.10098.001.variables.20260106T155030Z.csv",
+              "fileSizeBytes": 27324,
+              "checksum": "ef55a83c77c3e7815de47b189fe8a842",
+              "checksumAlgorithm": "MD5"
+            }
+          ]
+        },
+        {
+          "release": "RELEASE-2026",
+          "productCode": "DP1.10098.001",
+          "domainCode": "D07",
+          "siteCode": "MLBS",
+          "month": "2022-07",
+          "packageType": "basic",
+          "generationDate": "2026-01-23T00:07:49Z",
+          "files": [
+            {
+              "fileName": "NEON.D07.MLBS.DP1.10098.001.readme.20260123T000749Z.txt",
+              "downloadFileName": "",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2026/data/DP1.10098.001/MLBS/2022-07/NEON.D07.MLBS.DP1.10098.001.readme.20260123T000749Z.txt",
+              "fileSizeBytes": 50380,
+              "checksum": "04b48947b42a9cd00f9d24f933b008b2",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D07.MLBS.DP1.10098.001.vst_mappingandtagging.basic.20260106T160254Z.csv",
+              "downloadFileName": null,
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2026/data/DP1.10098.001/MLBS/2022-07/NEON.D07.MLBS.DP1.10098.001.vst_mappingandtagging.basic.20260106T160254Z.csv",
+              "fileSizeBytes": 882279,
+              "checksum": "9c468d519a8aabf56250cfa8f521c004",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D07.MLBS.DP0.10098.001.categoricalCodes.20260106T160254Z.csv",
+              "downloadFileName": null,
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2026/data/DP1.10098.001/MLBS/2022-07/NEON.D07.MLBS.DP0.10098.001.categoricalCodes.20260106T160254Z.csv",
+              "fileSizeBytes": 37747,
+              "checksum": "b2504b64dceacdbcdf9237d380d6440e",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D07.MLBS.DP1.10098.001.vst_perplotperyear.2022-07.basic.20260106T160254Z.csv",
+              "downloadFileName": null,
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2026/data/DP1.10098.001/MLBS/2022-07/NEON.D07.MLBS.DP1.10098.001.vst_perplotperyear.2022-07.basic.20260106T160254Z.csv",
+              "fileSizeBytes": 7134,
+              "checksum": "403524d8a4154cdadb4f0dda024aa43e",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D07.MLBS.DP1.10098.001.EML.20220711-20220719.20260123T000749Z.xml",
+              "downloadFileName": "",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2026/data/DP1.10098.001/MLBS/2022-07/NEON.D07.MLBS.DP1.10098.001.EML.20220711-20220719.20260123T000749Z.xml",
+              "fileSizeBytes": 151283,
+              "checksum": "780ee7a06945c51029720c6537c02e2e",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D07.MLBS.DP0.10098.001.validation.20260106T160254Z.csv",
+              "downloadFileName": null,
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2026/data/DP1.10098.001/MLBS/2022-07/NEON.D07.MLBS.DP0.10098.001.validation.20260106T160254Z.csv",
+              "fileSizeBytes": 41525,
+              "checksum": "225b90a870114b39e17d25b4c4dbad0b",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D07.MLBS.DP1.10098.001.vst_non-woody.2022-07.basic.20260106T160254Z.csv",
+              "downloadFileName": null,
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2026/data/DP1.10098.001/MLBS/2022-07/NEON.D07.MLBS.DP1.10098.001.vst_non-woody.2022-07.basic.20260106T160254Z.csv",
+              "fileSizeBytes": 872842,
+              "checksum": "f77f66cbf99593bddaee3330b06d5706",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D07.MLBS.DP1.10098.001.vst_identificationHistory.basic.20260106T160254Z.csv",
+              "downloadFileName": null,
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2026/data/DP1.10098.001/MLBS/2022-07/NEON.D07.MLBS.DP1.10098.001.vst_identificationHistory.basic.20260106T160254Z.csv",
+              "fileSizeBytes": 1799,
+              "checksum": "79106bcff8ffa01866fa3e7942f0c060",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D07.MLBS.DP1.10098.001.variables.20260106T160254Z.csv",
+              "downloadFileName": null,
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2026/data/DP1.10098.001/MLBS/2022-07/NEON.D07.MLBS.DP1.10098.001.variables.20260106T160254Z.csv",
+              "fileSizeBytes": 27324,
+              "checksum": "ef55a83c77c3e7815de47b189fe8a842",
+              "checksumAlgorithm": "MD5"
+            }
+          ]
+        },
+        {
+          "release": "RELEASE-2026",
+          "productCode": "DP1.10098.001",
+          "domainCode": "D07",
+          "siteCode": "MLBS",
+          "month": "2022-09",
+          "packageType": "basic",
+          "generationDate": "2026-01-23T00:07:49Z",
+          "files": [
+            {
+              "fileName": "NEON.D07.MLBS.DP1.10098.001.EML.20220921-20220928.20260123T000749Z.xml",
+              "downloadFileName": "",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2026/data/DP1.10098.001/MLBS/2022-09/NEON.D07.MLBS.DP1.10098.001.EML.20220921-20220928.20260123T000749Z.xml",
+              "fileSizeBytes": 140550,
+              "checksum": "7eb7db070af34d456b4b6053a874b68a",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D07.MLBS.DP1.10098.001.variables.20260106T154621Z.csv",
+              "downloadFileName": null,
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2026/data/DP1.10098.001/MLBS/2022-09/NEON.D07.MLBS.DP1.10098.001.variables.20260106T154621Z.csv",
+              "fileSizeBytes": 27324,
+              "checksum": "ef55a83c77c3e7815de47b189fe8a842",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D07.MLBS.DP1.10098.001.vst_mappingandtagging.basic.20260106T154621Z.csv",
+              "downloadFileName": null,
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2026/data/DP1.10098.001/MLBS/2022-09/NEON.D07.MLBS.DP1.10098.001.vst_mappingandtagging.basic.20260106T154621Z.csv",
+              "fileSizeBytes": 882279,
+              "checksum": "9c468d519a8aabf56250cfa8f521c004",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D07.MLBS.DP1.10098.001.readme.20260123T000749Z.txt",
+              "downloadFileName": "",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2026/data/DP1.10098.001/MLBS/2022-09/NEON.D07.MLBS.DP1.10098.001.readme.20260123T000749Z.txt",
+              "fileSizeBytes": 50197,
+              "checksum": "71a52ac00275010a499e947204e81fc3",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D07.MLBS.DP1.10098.001.vst_apparentindividual.2022-09.basic.20260106T154621Z.csv",
+              "downloadFileName": null,
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2026/data/DP1.10098.001/MLBS/2022-09/NEON.D07.MLBS.DP1.10098.001.vst_apparentindividual.2022-09.basic.20260106T154621Z.csv",
+              "fileSizeBytes": 217436,
+              "checksum": "af9a84223a0500549f8a0a6afe2d80d0",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D07.MLBS.DP1.10098.001.vst_identificationHistory.basic.20260106T154621Z.csv",
+              "downloadFileName": null,
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2026/data/DP1.10098.001/MLBS/2022-09/NEON.D07.MLBS.DP1.10098.001.vst_identificationHistory.basic.20260106T154621Z.csv",
+              "fileSizeBytes": 1799,
+              "checksum": "79106bcff8ffa01866fa3e7942f0c060",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D07.MLBS.DP0.10098.001.categoricalCodes.20260106T154621Z.csv",
+              "downloadFileName": null,
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2026/data/DP1.10098.001/MLBS/2022-09/NEON.D07.MLBS.DP0.10098.001.categoricalCodes.20260106T154621Z.csv",
+              "fileSizeBytes": 37747,
+              "checksum": "b2504b64dceacdbcdf9237d380d6440e",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D07.MLBS.DP0.10098.001.validation.20260106T154621Z.csv",
+              "downloadFileName": null,
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2026/data/DP1.10098.001/MLBS/2022-09/NEON.D07.MLBS.DP0.10098.001.validation.20260106T154621Z.csv",
+              "fileSizeBytes": 41525,
+              "checksum": "225b90a870114b39e17d25b4c4dbad0b",
+              "checksumAlgorithm": "MD5"
+            }
+          ]
+        },
+        {
+          "release": "RELEASE-2026",
+          "productCode": "DP1.10098.001",
+          "domainCode": "D07",
+          "siteCode": "MLBS",
+          "month": "2022-10",
+          "packageType": "basic",
+          "generationDate": "2026-01-23T00:07:49Z",
+          "files": [
+            {
+              "fileName": "NEON.D07.MLBS.DP1.10098.001.EML.20221003-20221006.20260123T000749Z.xml",
+              "downloadFileName": "",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2026/data/DP1.10098.001/MLBS/2022-10/NEON.D07.MLBS.DP1.10098.001.EML.20221003-20221006.20260123T000749Z.xml",
+              "fileSizeBytes": 140550,
+              "checksum": "9ef3ea35b99e0424cfead3797f185aaa",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D07.MLBS.DP0.10098.001.validation.20260106T154707Z.csv",
+              "downloadFileName": null,
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2026/data/DP1.10098.001/MLBS/2022-10/NEON.D07.MLBS.DP0.10098.001.validation.20260106T154707Z.csv",
+              "fileSizeBytes": 41525,
+              "checksum": "225b90a870114b39e17d25b4c4dbad0b",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D07.MLBS.DP1.10098.001.vst_mappingandtagging.basic.20260106T154707Z.csv",
+              "downloadFileName": null,
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2026/data/DP1.10098.001/MLBS/2022-10/NEON.D07.MLBS.DP1.10098.001.vst_mappingandtagging.basic.20260106T154707Z.csv",
+              "fileSizeBytes": 882279,
+              "checksum": "9c468d519a8aabf56250cfa8f521c004",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D07.MLBS.DP1.10098.001.readme.20260123T000749Z.txt",
+              "downloadFileName": "",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2026/data/DP1.10098.001/MLBS/2022-10/NEON.D07.MLBS.DP1.10098.001.readme.20260123T000749Z.txt",
+              "fileSizeBytes": 50197,
+              "checksum": "a8eccfba5b617371e6d281882fec5898",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D07.MLBS.DP1.10098.001.variables.20260106T154707Z.csv",
+              "downloadFileName": null,
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2026/data/DP1.10098.001/MLBS/2022-10/NEON.D07.MLBS.DP1.10098.001.variables.20260106T154707Z.csv",
+              "fileSizeBytes": 27324,
+              "checksum": "ef55a83c77c3e7815de47b189fe8a842",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D07.MLBS.DP1.10098.001.vst_apparentindividual.2022-10.basic.20260106T154707Z.csv",
+              "downloadFileName": null,
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2026/data/DP1.10098.001/MLBS/2022-10/NEON.D07.MLBS.DP1.10098.001.vst_apparentindividual.2022-10.basic.20260106T154707Z.csv",
+              "fileSizeBytes": 166116,
+              "checksum": "5d0bf65b42774899dd8d6b244abfec64",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D07.MLBS.DP1.10098.001.vst_identificationHistory.basic.20260106T154707Z.csv",
+              "downloadFileName": null,
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2026/data/DP1.10098.001/MLBS/2022-10/NEON.D07.MLBS.DP1.10098.001.vst_identificationHistory.basic.20260106T154707Z.csv",
+              "fileSizeBytes": 1799,
+              "checksum": "79106bcff8ffa01866fa3e7942f0c060",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D07.MLBS.DP0.10098.001.categoricalCodes.20260106T154707Z.csv",
+              "downloadFileName": null,
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2026/data/DP1.10098.001/MLBS/2022-10/NEON.D07.MLBS.DP0.10098.001.categoricalCodes.20260106T154707Z.csv",
+              "fileSizeBytes": 37747,
+              "checksum": "b2504b64dceacdbcdf9237d380d6440e",
+              "checksumAlgorithm": "MD5"
+            }
+          ]
+        },
+        {
+          "release": "RELEASE-2026",
+          "productCode": "DP1.10098.001",
+          "domainCode": "D07",
+          "siteCode": "MLBS",
+          "month": "2022-12",
+          "packageType": "basic",
+          "generationDate": "2026-01-23T00:07:49Z",
+          "files": [
+            {
+              "fileName": "NEON.D07.MLBS.DP1.10098.001.vst_identificationHistory.basic.20260106T155035Z.csv",
+              "downloadFileName": null,
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2026/data/DP1.10098.001/MLBS/2022-12/NEON.D07.MLBS.DP1.10098.001.vst_identificationHistory.basic.20260106T155035Z.csv",
+              "fileSizeBytes": 1799,
+              "checksum": "79106bcff8ffa01866fa3e7942f0c060",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D07.MLBS.DP1.10098.001.variables.20260106T155035Z.csv",
+              "downloadFileName": null,
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2026/data/DP1.10098.001/MLBS/2022-12/NEON.D07.MLBS.DP1.10098.001.variables.20260106T155035Z.csv",
+              "fileSizeBytes": 27324,
+              "checksum": "ef55a83c77c3e7815de47b189fe8a842",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D07.MLBS.DP1.10098.001.vst_apparentindividual.2022-12.basic.20260106T155035Z.csv",
+              "downloadFileName": null,
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2026/data/DP1.10098.001/MLBS/2022-12/NEON.D07.MLBS.DP1.10098.001.vst_apparentindividual.2022-12.basic.20260106T155035Z.csv",
+              "fileSizeBytes": 184355,
+              "checksum": "2ab247df5abbbd6c54a51304b76195e2",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D07.MLBS.DP1.10098.001.vst_mappingandtagging.basic.20260106T155035Z.csv",
+              "downloadFileName": null,
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2026/data/DP1.10098.001/MLBS/2022-12/NEON.D07.MLBS.DP1.10098.001.vst_mappingandtagging.basic.20260106T155035Z.csv",
+              "fileSizeBytes": 882279,
+              "checksum": "9c468d519a8aabf56250cfa8f521c004",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D07.MLBS.DP0.10098.001.validation.20260106T155035Z.csv",
+              "downloadFileName": null,
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2026/data/DP1.10098.001/MLBS/2022-12/NEON.D07.MLBS.DP0.10098.001.validation.20260106T155035Z.csv",
+              "fileSizeBytes": 41525,
+              "checksum": "225b90a870114b39e17d25b4c4dbad0b",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D07.MLBS.DP1.10098.001.EML.20221205-20221208.20260123T000749Z.xml",
+              "downloadFileName": "",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2026/data/DP1.10098.001/MLBS/2022-12/NEON.D07.MLBS.DP1.10098.001.EML.20221205-20221208.20260123T000749Z.xml",
+              "fileSizeBytes": 140550,
+              "checksum": "e1e103407b71653e574e2507ab467c8d",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D07.MLBS.DP1.10098.001.readme.20260123T000749Z.txt",
+              "downloadFileName": "",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2026/data/DP1.10098.001/MLBS/2022-12/NEON.D07.MLBS.DP1.10098.001.readme.20260123T000749Z.txt",
+              "fileSizeBytes": 50197,
+              "checksum": "90be9068359d4a62a44b28e63133dd41",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D07.MLBS.DP0.10098.001.categoricalCodes.20260106T155035Z.csv",
+              "downloadFileName": null,
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2026/data/DP1.10098.001/MLBS/2022-12/NEON.D07.MLBS.DP0.10098.001.categoricalCodes.20260106T155035Z.csv",
+              "fileSizeBytes": 37747,
+              "checksum": "b2504b64dceacdbcdf9237d380d6440e",
+              "checksumAlgorithm": "MD5"
+            }
+          ]
+        },
+        {
+          "release": "RELEASE-2026",
+          "productCode": "DP1.10098.001",
+          "domainCode": "D07",
+          "siteCode": "MLBS",
+          "month": "2023-09",
+          "packageType": "basic",
+          "generationDate": "2026-01-23T00:07:49Z",
+          "files": [
+            {
+              "fileName": "NEON.D07.MLBS.DP1.10098.001.vst_mappingandtagging.basic.20260106T154948Z.csv",
+              "downloadFileName": null,
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2026/data/DP1.10098.001/MLBS/2023-09/NEON.D07.MLBS.DP1.10098.001.vst_mappingandtagging.basic.20260106T154948Z.csv",
+              "fileSizeBytes": 882279,
+              "checksum": "9c468d519a8aabf56250cfa8f521c004",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D07.MLBS.DP1.10098.001.vst_perplotperyear.2023-09.basic.20260106T154948Z.csv",
+              "downloadFileName": null,
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2026/data/DP1.10098.001/MLBS/2023-09/NEON.D07.MLBS.DP1.10098.001.vst_perplotperyear.2023-09.basic.20260106T154948Z.csv",
+              "fileSizeBytes": 2124,
+              "checksum": "21611aabf6f0d6499973853999973ba7",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D07.MLBS.DP1.10098.001.readme.20260123T000749Z.txt",
+              "downloadFileName": "",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2026/data/DP1.10098.001/MLBS/2023-09/NEON.D07.MLBS.DP1.10098.001.readme.20260123T000749Z.txt",
+              "fileSizeBytes": 50355,
+              "checksum": "698d96fa542aead8af25e9143381b1f6",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D07.MLBS.DP1.10098.001.vst_identificationHistory.basic.20260106T154948Z.csv",
+              "downloadFileName": null,
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2026/data/DP1.10098.001/MLBS/2023-09/NEON.D07.MLBS.DP1.10098.001.vst_identificationHistory.basic.20260106T154948Z.csv",
+              "fileSizeBytes": 1799,
+              "checksum": "79106bcff8ffa01866fa3e7942f0c060",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D07.MLBS.DP0.10098.001.validation.20260106T154948Z.csv",
+              "downloadFileName": null,
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2026/data/DP1.10098.001/MLBS/2023-09/NEON.D07.MLBS.DP0.10098.001.validation.20260106T154948Z.csv",
+              "fileSizeBytes": 41525,
+              "checksum": "225b90a870114b39e17d25b4c4dbad0b",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D07.MLBS.DP0.10098.001.categoricalCodes.20260106T154948Z.csv",
+              "downloadFileName": null,
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2026/data/DP1.10098.001/MLBS/2023-09/NEON.D07.MLBS.DP0.10098.001.categoricalCodes.20260106T154948Z.csv",
+              "fileSizeBytes": 37747,
+              "checksum": "b2504b64dceacdbcdf9237d380d6440e",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D07.MLBS.DP1.10098.001.variables.20260106T154948Z.csv",
+              "downloadFileName": null,
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2026/data/DP1.10098.001/MLBS/2023-09/NEON.D07.MLBS.DP1.10098.001.variables.20260106T154948Z.csv",
+              "fileSizeBytes": 27324,
+              "checksum": "ef55a83c77c3e7815de47b189fe8a842",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D07.MLBS.DP1.10098.001.EML.20230926-20230927.20260123T000749Z.xml",
+              "downloadFileName": "",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2026/data/DP1.10098.001/MLBS/2023-09/NEON.D07.MLBS.DP1.10098.001.EML.20230926-20230927.20260123T000749Z.xml",
+              "fileSizeBytes": 193985,
+              "checksum": "16ea9b6a087203d1bb6112e15e658b5f",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D07.MLBS.DP1.10098.001.vst_apparentindividual.2023-09.basic.20260106T154948Z.csv",
+              "downloadFileName": null,
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2026/data/DP1.10098.001/MLBS/2023-09/NEON.D07.MLBS.DP1.10098.001.vst_apparentindividual.2023-09.basic.20260106T154948Z.csv",
+              "fileSizeBytes": 116884,
+              "checksum": "8e071716173099d75e91c7bebd02cac6",
+              "checksumAlgorithm": "MD5"
+            }
+          ]
+        },
+        {
+          "release": "RELEASE-2026",
+          "productCode": "DP1.10098.001",
+          "domainCode": "D07",
+          "siteCode": "MLBS",
+          "month": "2023-10",
+          "packageType": "basic",
+          "generationDate": "2026-01-23T00:07:49Z",
+          "files": [
+            {
+              "fileName": "NEON.D07.MLBS.DP1.10098.001.vst_mappingandtagging.basic.20260106T160319Z.csv",
+              "downloadFileName": null,
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2026/data/DP1.10098.001/MLBS/2023-10/NEON.D07.MLBS.DP1.10098.001.vst_mappingandtagging.basic.20260106T160319Z.csv",
+              "fileSizeBytes": 882279,
+              "checksum": "9c468d519a8aabf56250cfa8f521c004",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D07.MLBS.DP1.10098.001.readme.20260123T000749Z.txt",
+              "downloadFileName": "",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2026/data/DP1.10098.001/MLBS/2023-10/NEON.D07.MLBS.DP1.10098.001.readme.20260123T000749Z.txt",
+              "fileSizeBytes": 50355,
+              "checksum": "da2ba73e66f946967da5b55a27e72adc",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D07.MLBS.DP0.10098.001.categoricalCodes.20260106T160319Z.csv",
+              "downloadFileName": null,
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2026/data/DP1.10098.001/MLBS/2023-10/NEON.D07.MLBS.DP0.10098.001.categoricalCodes.20260106T160319Z.csv",
+              "fileSizeBytes": 37747,
+              "checksum": "b2504b64dceacdbcdf9237d380d6440e",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D07.MLBS.DP1.10098.001.variables.20260106T160319Z.csv",
+              "downloadFileName": null,
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2026/data/DP1.10098.001/MLBS/2023-10/NEON.D07.MLBS.DP1.10098.001.variables.20260106T160319Z.csv",
+              "fileSizeBytes": 27324,
+              "checksum": "ef55a83c77c3e7815de47b189fe8a842",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D07.MLBS.DP1.10098.001.vst_apparentindividual.2023-10.basic.20260106T160319Z.csv",
+              "downloadFileName": null,
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2026/data/DP1.10098.001/MLBS/2023-10/NEON.D07.MLBS.DP1.10098.001.vst_apparentindividual.2023-10.basic.20260106T160319Z.csv",
+              "fileSizeBytes": 75643,
+              "checksum": "34e5bd9dcfbf26020894efd5d6e4038a",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D07.MLBS.DP1.10098.001.vst_perplotperyear.2023-10.basic.20260106T160319Z.csv",
+              "downloadFileName": null,
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2026/data/DP1.10098.001/MLBS/2023-10/NEON.D07.MLBS.DP1.10098.001.vst_perplotperyear.2023-10.basic.20260106T160319Z.csv",
+              "fileSizeBytes": 1671,
+              "checksum": "791b1f35ad037817617bb718c35b018a",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D07.MLBS.DP0.10098.001.validation.20260106T160319Z.csv",
+              "downloadFileName": null,
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2026/data/DP1.10098.001/MLBS/2023-10/NEON.D07.MLBS.DP0.10098.001.validation.20260106T160319Z.csv",
+              "fileSizeBytes": 41525,
+              "checksum": "225b90a870114b39e17d25b4c4dbad0b",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D07.MLBS.DP1.10098.001.vst_identificationHistory.basic.20260106T160319Z.csv",
+              "downloadFileName": null,
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2026/data/DP1.10098.001/MLBS/2023-10/NEON.D07.MLBS.DP1.10098.001.vst_identificationHistory.basic.20260106T160319Z.csv",
+              "fileSizeBytes": 1799,
+              "checksum": "79106bcff8ffa01866fa3e7942f0c060",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D07.MLBS.DP1.10098.001.EML.20231004-20231005.20260123T000749Z.xml",
+              "downloadFileName": "",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2026/data/DP1.10098.001/MLBS/2023-10/NEON.D07.MLBS.DP1.10098.001.EML.20231004-20231005.20260123T000749Z.xml",
+              "fileSizeBytes": 193985,
+              "checksum": "3d2ea892a47bcae346e0937d6d0f694e",
+              "checksumAlgorithm": "MD5"
+            }
+          ]
+        },
+        {
+          "release": "RELEASE-2026",
+          "productCode": "DP1.10098.001",
+          "domainCode": "D07",
+          "siteCode": "MLBS",
+          "month": "2024-09",
+          "packageType": "basic",
+          "generationDate": "2026-01-23T00:07:49Z",
+          "files": [
+            {
+              "fileName": "NEON.D07.MLBS.DP1.10098.001.vst_perplotperyear.2024-09.basic.20260106T155020Z.csv",
+              "downloadFileName": null,
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2026/data/DP1.10098.001/MLBS/2024-09/NEON.D07.MLBS.DP1.10098.001.vst_perplotperyear.2024-09.basic.20260106T155020Z.csv",
+              "fileSizeBytes": 3156,
+              "checksum": "ec57323a70ab1038bf1e3cd1c054bf06",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D07.MLBS.DP1.10098.001.vst_mappingandtagging.basic.20260106T155020Z.csv",
+              "downloadFileName": null,
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2026/data/DP1.10098.001/MLBS/2024-09/NEON.D07.MLBS.DP1.10098.001.vst_mappingandtagging.basic.20260106T155020Z.csv",
+              "fileSizeBytes": 882279,
+              "checksum": "9c468d519a8aabf56250cfa8f521c004",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D07.MLBS.DP0.10098.001.validation.20260106T155020Z.csv",
+              "downloadFileName": null,
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2026/data/DP1.10098.001/MLBS/2024-09/NEON.D07.MLBS.DP0.10098.001.validation.20260106T155020Z.csv",
+              "fileSizeBytes": 41525,
+              "checksum": "225b90a870114b39e17d25b4c4dbad0b",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D07.MLBS.DP1.10098.001.vst_apparentindividual.2024-09.basic.20260106T155020Z.csv",
+              "downloadFileName": null,
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2026/data/DP1.10098.001/MLBS/2024-09/NEON.D07.MLBS.DP1.10098.001.vst_apparentindividual.2024-09.basic.20260106T155020Z.csv",
+              "fileSizeBytes": 145698,
+              "checksum": "689395e7801b6651bda8166c4ebfb8bf",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D07.MLBS.DP1.10098.001.vst_identificationHistory.basic.20260106T155020Z.csv",
+              "downloadFileName": null,
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2026/data/DP1.10098.001/MLBS/2024-09/NEON.D07.MLBS.DP1.10098.001.vst_identificationHistory.basic.20260106T155020Z.csv",
+              "fileSizeBytes": 1799,
+              "checksum": "79106bcff8ffa01866fa3e7942f0c060",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D07.MLBS.DP1.10098.001.variables.20260106T155020Z.csv",
+              "downloadFileName": null,
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2026/data/DP1.10098.001/MLBS/2024-09/NEON.D07.MLBS.DP1.10098.001.variables.20260106T155020Z.csv",
+              "fileSizeBytes": 27324,
+              "checksum": "ef55a83c77c3e7815de47b189fe8a842",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D07.MLBS.DP1.10098.001.readme.20260123T000749Z.txt",
+              "downloadFileName": "",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2026/data/DP1.10098.001/MLBS/2024-09/NEON.D07.MLBS.DP1.10098.001.readme.20260123T000749Z.txt",
+              "fileSizeBytes": 50355,
+              "checksum": "8eebbece2e048dbdd5fc71c19e4e3c50",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D07.MLBS.DP0.10098.001.categoricalCodes.20260106T155020Z.csv",
+              "downloadFileName": null,
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2026/data/DP1.10098.001/MLBS/2024-09/NEON.D07.MLBS.DP0.10098.001.categoricalCodes.20260106T155020Z.csv",
+              "fileSizeBytes": 37747,
+              "checksum": "b2504b64dceacdbcdf9237d380d6440e",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D07.MLBS.DP1.10098.001.EML.20240923-20240926.20260123T000749Z.xml",
+              "downloadFileName": "",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2026/data/DP1.10098.001/MLBS/2024-09/NEON.D07.MLBS.DP1.10098.001.EML.20240923-20240926.20260123T000749Z.xml",
+              "fileSizeBytes": 193985,
+              "checksum": "f1035917f9ef398f9bfac652ed370f18",
+              "checksumAlgorithm": "MD5"
+            }
+          ]
+        },
+        {
+          "release": "RELEASE-2026",
+          "productCode": "DP1.10098.001",
+          "domainCode": "D07",
+          "siteCode": "MLBS",
+          "month": "2024-10",
+          "packageType": "basic",
+          "generationDate": "2026-01-23T00:07:49Z",
+          "files": [
+            {
+              "fileName": "NEON.D07.MLBS.DP1.10098.001.vst_apparentindividual.2024-10.basic.20260106T160305Z.csv",
+              "downloadFileName": null,
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2026/data/DP1.10098.001/MLBS/2024-10/NEON.D07.MLBS.DP1.10098.001.vst_apparentindividual.2024-10.basic.20260106T160305Z.csv",
+              "fileSizeBytes": 337988,
+              "checksum": "f5218f4b7e1c71b0c7045654a0d1e581",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D07.MLBS.DP1.10098.001.vst_perplotperyear.2024-10.basic.20260106T160305Z.csv",
+              "downloadFileName": null,
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2026/data/DP1.10098.001/MLBS/2024-10/NEON.D07.MLBS.DP1.10098.001.vst_perplotperyear.2024-10.basic.20260106T160305Z.csv",
+              "fileSizeBytes": 6179,
+              "checksum": "0f1cd934c85e0f222ac16c7302cb5cfa",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D07.MLBS.DP1.10098.001.variables.20260106T160305Z.csv",
+              "downloadFileName": null,
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2026/data/DP1.10098.001/MLBS/2024-10/NEON.D07.MLBS.DP1.10098.001.variables.20260106T160305Z.csv",
+              "fileSizeBytes": 27324,
+              "checksum": "ef55a83c77c3e7815de47b189fe8a842",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D07.MLBS.DP0.10098.001.categoricalCodes.20260106T160305Z.csv",
+              "downloadFileName": null,
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2026/data/DP1.10098.001/MLBS/2024-10/NEON.D07.MLBS.DP0.10098.001.categoricalCodes.20260106T160305Z.csv",
+              "fileSizeBytes": 37747,
+              "checksum": "b2504b64dceacdbcdf9237d380d6440e",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D07.MLBS.DP1.10098.001.vst_mappingandtagging.basic.20260106T160305Z.csv",
+              "downloadFileName": null,
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2026/data/DP1.10098.001/MLBS/2024-10/NEON.D07.MLBS.DP1.10098.001.vst_mappingandtagging.basic.20260106T160305Z.csv",
+              "fileSizeBytes": 882279,
+              "checksum": "9c468d519a8aabf56250cfa8f521c004",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D07.MLBS.DP0.10098.001.validation.20260106T160305Z.csv",
+              "downloadFileName": null,
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2026/data/DP1.10098.001/MLBS/2024-10/NEON.D07.MLBS.DP0.10098.001.validation.20260106T160305Z.csv",
+              "fileSizeBytes": 41525,
+              "checksum": "225b90a870114b39e17d25b4c4dbad0b",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D07.MLBS.DP1.10098.001.readme.20260123T000749Z.txt",
+              "downloadFileName": "",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2026/data/DP1.10098.001/MLBS/2024-10/NEON.D07.MLBS.DP1.10098.001.readme.20260123T000749Z.txt",
+              "fileSizeBytes": 50355,
+              "checksum": "29c5453c75578ef43334ae966b78f161",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D07.MLBS.DP1.10098.001.vst_identificationHistory.basic.20260106T160305Z.csv",
+              "downloadFileName": null,
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2026/data/DP1.10098.001/MLBS/2024-10/NEON.D07.MLBS.DP1.10098.001.vst_identificationHistory.basic.20260106T160305Z.csv",
+              "fileSizeBytes": 1799,
+              "checksum": "79106bcff8ffa01866fa3e7942f0c060",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D07.MLBS.DP1.10098.001.EML.20241009-20241030.20260123T000749Z.xml",
+              "downloadFileName": "",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2026/data/DP1.10098.001/MLBS/2024-10/NEON.D07.MLBS.DP1.10098.001.EML.20241009-20241030.20260123T000749Z.xml",
+              "fileSizeBytes": 193986,
+              "checksum": "e8059723335aabe9b9e5b54d0ac26225",
+              "checksumAlgorithm": "MD5"
+            }
+          ]
+        },
+        {
+          "release": "RELEASE-2026",
+          "productCode": "DP1.10098.001",
+          "domainCode": "D07",
+          "siteCode": "MLBS",
+          "month": "2024-11",
+          "packageType": "basic",
+          "generationDate": "2026-01-23T00:07:49Z",
+          "files": [
+            {
+              "fileName": "NEON.D07.MLBS.DP0.10098.001.validation.20260106T155652Z.csv",
+              "downloadFileName": null,
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2026/data/DP1.10098.001/MLBS/2024-11/NEON.D07.MLBS.DP0.10098.001.validation.20260106T155652Z.csv",
+              "fileSizeBytes": 41525,
+              "checksum": "225b90a870114b39e17d25b4c4dbad0b",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D07.MLBS.DP0.10098.001.categoricalCodes.20260106T155652Z.csv",
+              "downloadFileName": null,
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2026/data/DP1.10098.001/MLBS/2024-11/NEON.D07.MLBS.DP0.10098.001.categoricalCodes.20260106T155652Z.csv",
+              "fileSizeBytes": 37747,
+              "checksum": "b2504b64dceacdbcdf9237d380d6440e",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D07.MLBS.DP1.10098.001.vst_identificationHistory.basic.20260106T155652Z.csv",
+              "downloadFileName": null,
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2026/data/DP1.10098.001/MLBS/2024-11/NEON.D07.MLBS.DP1.10098.001.vst_identificationHistory.basic.20260106T155652Z.csv",
+              "fileSizeBytes": 1799,
+              "checksum": "79106bcff8ffa01866fa3e7942f0c060",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D07.MLBS.DP1.10098.001.variables.20260106T155652Z.csv",
+              "downloadFileName": null,
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2026/data/DP1.10098.001/MLBS/2024-11/NEON.D07.MLBS.DP1.10098.001.variables.20260106T155652Z.csv",
+              "fileSizeBytes": 27324,
+              "checksum": "ef55a83c77c3e7815de47b189fe8a842",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D07.MLBS.DP1.10098.001.vst_perplotperyear.2024-11.basic.20260106T155652Z.csv",
+              "downloadFileName": null,
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2026/data/DP1.10098.001/MLBS/2024-11/NEON.D07.MLBS.DP1.10098.001.vst_perplotperyear.2024-11.basic.20260106T155652Z.csv",
+              "fileSizeBytes": 4193,
+              "checksum": "51f6687c494c2938b8cf17fcf630f94b",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D07.MLBS.DP1.10098.001.vst_apparentindividual.2024-11.basic.20260106T155652Z.csv",
+              "downloadFileName": null,
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2026/data/DP1.10098.001/MLBS/2024-11/NEON.D07.MLBS.DP1.10098.001.vst_apparentindividual.2024-11.basic.20260106T155652Z.csv",
+              "fileSizeBytes": 163074,
+              "checksum": "8741b80ec9f53bdb2885d3c6c85c0853",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D07.MLBS.DP1.10098.001.vst_mappingandtagging.basic.20260106T155652Z.csv",
+              "downloadFileName": null,
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2026/data/DP1.10098.001/MLBS/2024-11/NEON.D07.MLBS.DP1.10098.001.vst_mappingandtagging.basic.20260106T155652Z.csv",
+              "fileSizeBytes": 882279,
+              "checksum": "9c468d519a8aabf56250cfa8f521c004",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D07.MLBS.DP1.10098.001.EML.20241105-20241112.20260123T000749Z.xml",
+              "downloadFileName": "",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2026/data/DP1.10098.001/MLBS/2024-11/NEON.D07.MLBS.DP1.10098.001.EML.20241105-20241112.20260123T000749Z.xml",
+              "fileSizeBytes": 193985,
+              "checksum": "6faf36b239b95915adab8ac9816af56b",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D07.MLBS.DP1.10098.001.readme.20260123T000749Z.txt",
+              "downloadFileName": "",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2026/data/DP1.10098.001/MLBS/2024-11/NEON.D07.MLBS.DP1.10098.001.readme.20260123T000749Z.txt",
+              "fileSizeBytes": 50355,
+              "checksum": "82609402f23187249fc9911e1efa03d1",
+              "checksumAlgorithm": "MD5"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

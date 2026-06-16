@@ -1,0 +1,320 @@
+---
+title: "Team Science with Kendra"
+author: "Alyssa Willson"
+date: "2026-06-02"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Team Science for Ecology
+
+* Kendra Spence Cheruvelil (she | hers)
+* Michigan State University, USA
+* SPEC School, May 2026
+* ksc@msu.edu
+
+## Some talk norms
+
+* Be present, as you can. Feel free to turn on your camera and ask questions as they come up.
+* Take care of yourself (stand, leave, turn off camera, eat/drink, etc...).
+* Be mindful of the space you take; be courageous in taking up space.
+* If something is not working for you, propose an alternative way forward.
+
+## A little about me...
+
+## ...and my career path
+
+## Part 1: Lessons learned doing big-data lake ecology
+
+* Kendra Spence Cheruvelil & Patricia A. Soranno
+* Co-directors of the Bridge Lab
+* bridgelabresearch.org
+
+* **Our idea**: To understand & predict lake water quality at the population level. But, first...
+
+## Build the theory
+
+* Landscape limnology
+* Macrosystems ecology
+
+## Build the research infrastructure
+
+* Data & Tools
+  * 1000's of ecosystems
+  * 100's of drivers
+  * multiple scales of space & time
+* Lakes of the United States
+  * LAGOS
+  * lagoslakes.org
+  
+## Research infrastructure: The LAGOS-US Platform
+
+* Facilitated by open science movement (100's of datasets)
+* Grounded in open-science FAIR principles
+* Curated databases, code, tools, and user guides
+* Accessible, reproducible, and extensible
+
+## Build the research infrastructure
+
+* LAGOS-US Research Platform
+  * GEO
+  * LOCUS
+    * RESERVOIR
+      * Classification: natural lakes or reservoirs
+    * DEPTH
+      * Lake depths (maximum and minimum)
+    * HUMAN
+      * Human population, urbanization, classification, and lake access
+    * NETWORKS
+      * Lake network metrics of surface connectivity
+    * LANDSAT
+      * Predictions of CHL, Secchi, DOC, true color, TSS, and turbidity
+  * LIMNO
+
+## Research infrastructure: LAGOS research teams
+
+* LAGOS Thru Time (2005-2025)
+  * Increases in spatial resolution
+  * Increases in spatial extent
+  * Increases in number of lakes
+  * Increases in people, disciplines
+  
+* Landscape Limno Research Group
+  * 2005-2010
+  * 6 states
+  * ~2000 lakes $\ge$ 10 ha
+  * Disciplinary: Aquatic ecologists
+
+## LAGOS research teams
+
+* **CSI Limnology**
+  * 2011-2016
+  * 17 states
+  * ~50,000 lakes $ge$ 4 ha
+  * Interdisciplinary: Aquatic ecologists, GIS experts, Database experts, Data scientists (stats & comp science)
+
+* **Continental Limnology**
+  * 2016-2023
+  * 48 states
+  * ~500,000 lakes $ge$ 1 ha
+  * Interdisciplinary: MORE data scientists
+
+## Science teams building and researching with LAGOS
+
+* Build a diverse team of experts
+* Best science outcomes for individuals and team
+
+* Needs:
+  * Trust
+  * Fairness
+  * Clarity
+  * Transparency
+  * Freedom
+  * Understanding
+* Challenges:
+  * Power differentials
+  * Unwritten Rules
+  * Perceived constraints
+  * Conflicts
+  * Skills deficits
+  * Disciplinary gaps
+
+## Science of Team Science to build & foster productive research teams
+
+* Team Diversity + Interpersonal skills
+* Team functioning + Team communication
+* Research outcomes
+  * Generation/publication of transformative knowledge
+  * Creation of new high-performing teams
+  * Translation of sound management, conservation and policy
+  * Innovative training and education
+  * Effective public engagement
+
+## How to build & foster productive research teams
+
+* **Dimensions of team diversity:**
+  1) Demographics
+  2) Points of view
+  3) Career stage
+  4) Degree of incumbency
+  5) Interaction modes
+  6) Disciplinary balance
+
+* **Interpersonal skills = learned & practiced**
+  * Social Sensitivity
+    * Empathy
+    * Honesty
+    * Clarity
+    * Integrity
+    * Accountability
+  * Emotional Engagement
+    * Excitement about research
+    * Committment to team
+    * Trust
+* **Team communication & functioning skills = learned & practiced**
+  * **Idea generation**
+  * **Communication**
+  * **Decision making**
+  * **Time management**
+  * **Conflict management**
+
+
+## Lessons learned from LAGOS
+
+* Build a diverse team of experts
+* Best science outcomes for individuals and team
+* Build the environment and culture needed by collaboratively drafting and implementing team policies
+
+## What are collaboratively-drafted policies?
+
+* POLICY\textsuperscript{*} =
+  * A deliberate system of principles to guide decisions and achieve rational outcomes
+  * A statement of intent
+  * Can include features that are: managerial, financial, administrative, scientific, and others
+* \textsuperscript{*}You can call these anything you want:
+  * Best practices
+  * Standard Operating Procedures
+  * Guidelines
+  * MOUs
+  * Agreements
+  * Norms
+  * ...
+  
+## Policies for which team activities or processes?
+
+* Those with any of the following characteristics:
+  * Follow unwritten rules or expectations
+  * Involve power differentials
+  * Are uncomfortable to talk about
+
+* Personnel expectations
+  * Participation/attendance
+  * Workfload for each person
+  * Communication
+  * Meeting norms
+* Allocation of resources
+  * Funds & other resources
+  * Expectations for those receiving funds
+* Authorship
+  * What counts & who decides?
+  * Expectations for leading manuscripts?
+* Data & Code Sharing & Use
+  * Internal vs external sharing
+  * Mechanics of sharing
+  * Credit for data & code
+
+* Example from co-leading LAGOS:
+  1) Authorship policy and author management styles when writing co-authored publications
+
+## Team Authorship Policy
+
+* *A document that describes the team's procedures and guidelines related to manuscript (MS) development*
+* **What does an authorship policy provide?**
+  * Best-practices for the team to strive for
+  * Opportunities to discuss authorship
+  * Opportunity for those with less power to contribute to decision-making
+  * Clarity of expectations, roles, and responsibilities
+  * Transparency in authorship decisions
+  * Help in assigning credit
+
+## What's included in an authorship policy?
+
+1. Date or version number (living document!)
+2. Goal & guiding principles (or values) of the policy
+3. Description of the activities to warrant authorship
+4. Strategy for assigning authorship
+5. Description of article types and needs
+6. Expectations of 'lead' author(s) and 'co-authors'
+
+* \textsuperscript{*}Best when the policy is co-created by ALL team members
+* \textsuperscript{*}Best when ALL MSs have an author-contribution statement
+
+## Policy into practice: Manuscript management strategies
+
+* How the **lead author(s)** manage the MS tasks, including decision-making, timelines, soliciting contributions, and delegating tasks
+
+* What difference do these strategies make?
+  * Provides clarity for co-author contributions & expectations
+  * Allows for diverse range of lead author working styles
+  * Facilitates alignment of manuscript type (e.g., *dissertation chapter*, *essays*, *data papers*) with best-suited strategy
+  * Allows teams to balance sometimes competing goals & principles
+
+## LAGOS guiding principles for co-authored publications
+
+* Efficiency & productivity
+* Transparency
+* Accountability
+* Creativity
+* Inclusion & fairness
+* Protection & promotion
+
+* **Challenge**: How to balance these, sometimes competing, principles and maximize benefits for individuals and team?
+
+## Policy into practice: Manuscript management strategies
+
+## Outcomes of Building Research Infrastructure (Including Team Skills & Cultures)
+
+* MANY important conversations
+  * What is good science?
+  * Role of power dynamics on research teams
+  * Working styles
+  * Conflict negotiation
+  * Project, paper, & personnel management
+* MANY collaborative reserach manuscripts
+  * 40% mutli-disciplinary
+  * Average number of authors/paper = 8
+
+## Articles using LAGOS-NE or LAGOS-US
+
+* Topics by other researchers:
+  * Harmful algal blooms
+  * Water quality and management
+  * Global change and freshwaters
+  * Envir. Economics, justice, & policy
+  * Modeling freshwater species
+* Journals by other researchers:
+  * PNAS
+  * Nature Communications
+  * Land Economics
+  * Water Econ & Policy
+  * Intelligent Systems w Applic.
+  * Envir. Pollution
+  * Biological Invasions
+  * Diversity & Distributions
+
+## Where to start? Team Science Resources from LAGOS
+
+* Team policies we share
+  * Authorship policy
+  * Data sharing policy
+  * File-sharing, including code-sharing
+  * Personnel expectations
+  * Values & steps toward equity
+* Published papers:
+  * Synergies at the intersections of team, open, & data sciences (*Cheruvelil & Soranno 2018 BioScience*)
+  * Improving team functioning (*Cheruvelil et al. 2014 Front. Ecol. Environ.*)
+  * Collaborative manuscript writing (*Oliver et al. 2018 Ecosphere*)
+  * Authorship policy template (*Soranno & Cheruvelil 2019 FigShare*)
+  * Authorship case study (*Cheruvelil et al. 2019 Online Ethics Center*)
+  * Six simple steps for sharing your data (*Soranno 2019 L&O Bulletin*)
+
+## Other Sources of Team Science Resources
+
+* Team Science: NASEM
+* Field Guide: NIH
+* The Toolbox Dialogue Initiative: tdi.msu.edu
+* A Blueprint for Creating High-Performing Teams of Ecologists and Environmental Scientists
+* scienceofteamscience.org
+* Teams, Networks, and Networks of Networks Advancing Our Understanding and Conservation of Inland Waters
+
+## Q & A
+
+* Contact me: ksc@msu.edu
+* Connect with me on LinkedIn: @kspencecheruvelilphd
+* If you want to learn more about my research:
+  * bridgelabresearch.org
+  * lagoslakes.org
+  * ee-stem.weebly.com/

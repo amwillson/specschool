@@ -1,0 +1,49 @@
+---
+title: "Inclusive Leadership to Broaden Participation"
+author: "Alyssa Willson"
+date: "2026-03-06"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## What is inclusive leadership?
+
+* Fostering employee's uniqueness
+  * Supporting employees as individuals
+  * Promoting diversity
+  * Empowering employees
+  * Contributing to employees L&D
+* Strengthening belongingness within a team
+  * Ensuring equity
+  * Building relationships
+  * Sharing decision making
+* Supporting organizational efforts
+  * Being open to organizational change
+  * Promoting organizational mission on inclusion
+* Showing appreciation
+  * Recognizing efforts and contribution
+
+## Outdoor leadership
+
+* Leadership The Outward Bound Way (Outward Bound USA)
+* Leadership Educator Network (National Outdoor Leadership School)
+* The US National Science Foundation started requiring "Safe and Harassment-free Fieldwork Plans" as part of research proposals that include field work in 2023.
+
+## Dr. Beronda Montgomery
+
+* "Following the Principles of the Universe: Lessons from Plants on Individual and Communal Thriving" (Integrative and Comparative Biology)
+* Dr. Beronda Montgomery is a Professor of Biology at Grinnell College
+* Lesson from Plants
+* When Trees Testify: Science, Wisdom, History, and America's Black Botanical Legacy
+
+## The Science of Team Science
+
+* "The "Science and Practice of Team Science outlines adaptable practices that enhance team dynamics and productivity across all phases of research--from development to implementation to translation. These include the use of team charters, psychological safety, communication strategies, and project management. This report also emphasizes the role of technology in enabling collaboration while cautioning that tools must be intentionally deployed to support accessibility, training and integration with workflows."
+
+## Acknowledgments
+
+* Kyla's thoughts on leadership are informed by her own mentors, past and present, authors, and more.
+* SPEC School is supported by NSF DEB Award #2044818

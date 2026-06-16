@@ -1,0 +1,205 @@
+---
+title: "Data Discussion"
+author: "Alyssa Willson"
+date: "2026-05-01"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Plant for the day
+
+* Introductions! (~45 min) - all
+* Inclusive Leadership & Mentoring readings breakouts & report back (~25 min) - all
+* Talk about projects & our visiting instructors (~10 min) - Kyla
+* BREAK
+* NEON Data Discussion (~40 min) - Kyla
+* Lidar fun times (~30 min) - Renae
+* Project Brainstorming (~30 min) - all
+
+## Mentoring & Inclusive Leadership Readings
+
+**Breakout Plan**:
+
+* Introduce yourselves
+* Choose a note-taker
+* The article about leadership at Google talks about the importance of creating a psychological safe space for groups to thrive. What are some examples you have seen of how a leader can create a psychological safe space for a group?
+* What has a mentor done for you that had a lasting impact--and what do you wish they had done differently?
+* How do you set boundaries in a mentoring relationship while still being genuinely supportive?
+
+## Projects
+
+* Main goals are to practice team science and reproducible methods and work with NEON data
+* Today we will talk about our visiting instructors and avaialble data then break into brainstorming groups
+* Ideal projects are "SQART"
+  * Specific
+  * Quantifiable
+  * Achievable
+  * Related (to NEON/SPEC School)
+  * Time-bound\textsuperscript{**}
+* But today we'll focus on general concepts/interest areas
+
+## Mountain Lake Biological Station
+
+* Relatively high elevation (gets some snow in winter)
+* Complicated/Rugged topography in some areas (cliffs!)
+* Mostly deciduous broadleaf forest
+* A few pines and hemlocks (plus a planted pine stand)
+* LOTS of ferns in the understory plus some woody shrubs
+* Substantially impacted in 2018 by a defoliating insect (cankerworm)
+
+## Our visiting instructors
+
+* Jeff Atkins - VCU
+* Min Chen - U Wisc Madison
+* Zoe Pierrat - UCSB
+* Sparkle Malone - Yale
+* Jon Wang - U Utah
+* Casey Youngflesh - Clemson U
+
+## Jeff Atkins
+
+* Assistant Research Professor at Virginia Commonwealth University
+* PhD in Environmental Sciences from University of Virginia, MS in Environmental Studies from UNC Asheville, BA in English from Western Carolina University
+* Background in terrestrial lidar and forest structure
+* @MLBS 6/15-17
+
+## Min Chen
+
+* Assistant Professor at University of Wisconsin, Madison
+* PhD in Earth & Atmospheric Sciences from Purdue University, MS in Remote Sensing and GIS from Beijing Normal University, BS in Computer Science from Beijing Normal University
+* Background in Earth system modeling and remote sensing
+* @ MLBS 6/15-18
+
+## Zoe Pierrat
+
+* Assistant Professor at University of California, Santa Barbara
+* PhD & MS in Atmospheric and Oceanic Sciences from UCLA, BA in Physics from Colorado College
+* Background in carbon cycling and water use, lots of thermal and SIF remote sensing
+* @ MLBS 6/15-18
+
+## Sparkle Malone
+
+* Assistant Professor at Yale School of the Environment
+* PhD in Biology from the University of Alabama, MS & BS in Forest Resources from the University of Florida
+* Background in carbon cycling in wet environments, "blue carbon"
+* @ MLBS 6/16-19
+
+## Jon Wang
+
+* Assistant Professor at University of Utah
+* PhD in Earth & Environment from Boston University, BS in Geology & Biology from Brown University
+* Background in carbon cycling and fire remote sensing
+* @ MLBS 6/16-19
+
+## Casey Youngflesh
+
+* Assistant Professor at Clemson University
+* PhD in Ecology & Evolution from Stony Brook University, MS in Conservation Biology, University of New South Wales, BS in Ecology & Evolution from UC Santa Cruz
+* Background in birds and Bayesian modeling
+* @ MLBS 6/16-19
+
+## Data Discussion
+
+* NEON
+* Townsend/EnSPEC Lab Data
+* ERSAM (Kyla's) Lab
+* Other data sources
+
+## NEON AOP Data
+
+* AOP Data Products
+  * Products can now be visualized & accessed via Google Earth Engine - https://neon-prod-earthengine.projects.earthengine.app/view/neon-aop-gee-data-viewer--desktop (quick demo)
+  * Via the NEON Data Portal hyperspectral products are made available both as flightlines and as a tiled "mosaic" in 1x1 km tiles in UTM coordinate system. (but Kyla doesn't like NEON's mosaicking algorithm)
+  * Lidar products are all provided as 1x1 km tiles
+  * NEON has *just* started producing hyperspectral imagery that has been topographically corrected and has had a bidirectional reflectance distribution function (BRDF) applied ("BRDF correction"). Currently only available for 2022 onward imagery. AOP data not collected at MLBS in 2024 or 2025 :(
+    * BRDF corrected data has "bidirectional" in the name
+    * Non-BRDF corrected data does not have "bidirectional" in the name
+
+## Quick Explanation of BRDF & topographic correction
+
+* Depending on the location of the sun and the ground relative to the sensor, images can have bright spots or uneven brightness that is due to solar angles & topograhpic angles.
+* BRDF and topographic corrections try to correct for this with math.
+
+* Airborne sensors record the view zenith angle and solar zenith angle to allow for BRDF correction.
+* Topographic correction requires a digital elevation model (DEM).
+* Ideally the plane is close to nadir as is the sun, but this depends on latitude & weather conditions.
+
+* NEON is currently reprocessing all of their hyperspectral data to be topographically & BRDF corrected.
+* What do we do in the meantime?
+  * (1) Ignore this issue and proceed with slightly stripey imagery (plenty of pubs have done this).
+  * (2) Apply BRD Fand topographic correction ourselves!
+    * Python: "hytools" package -> https://github.com/EnSpec/hytools mostly developed by Adam Chulus from UWisc and now JPL
+    * R: "hypRspec" package -> https://github.conm/akamoske/hypRspec mostly developed by Aaron Kamoske from MSU and now Forest Service (currently being updated)
+* In reality, visually, non-BRDF corrected imagery doesn't look great, but the actual differences in the data are relatively minor.
+
+## Back to NEON AOP Hyperspectral Products
+
+* All at 1 m spatial resolution, again tiled or flightlines, only BRDF corrected for 2022 onward.
+* Albedo - total reflected solar radiation from 400 to 2500 nm as a fraction (0.0 to 1.0). GeoTIFF
+* Canopy Water Indices - MSI, NDII, NDWI, NMDI, WBI. GeoTIFF
+* fPAR (fraction of absorbed incident photosynthetically active radiation) - function of SAVI & LAI. Fraction (0.0 to 1.0). GeoTIFF
+* LAI (leaf area index) - function of SAVI. m\textsuperscript{2}leaf/m\textsuperscript{2}ground (unitless). GeoTIFF
+* Spectrometer orthorectified surface reflectance - 426 bands, 0-1 unitless, scaled by 10,000. Calibrated, orthorectified, and atmospherically corrected. HDF5 format.
+
+* Continued...
+* Spectrometer orthorectified at-sensor radiance - actual energy measurements from spectrometer (calibrated and orthorectified) in $\mu$W/cm\textsuperscript{2}sr nm. HDF5 format. Would only use this if you were developing your own atmospheric correction (unlikely).
+* Vegetation Indices - NDVI, EVI, ARVI, PRI & SAVI. Either -1.0 to 1.0 or 0.0 to 1.0. GeoTIFF.
+* **Suspended Indices (not currently available)** - Canopy lignin, canopy nitrogen, canopy xanthophyll cycle, total biomass. Nitrogen is now available for select sites...
+
+## NEON Lidar Products
+
+* All provided as tiles. Raster data at 1 m resolution.
+* Discrete Return LiDAR point cloud - classified xyz coordinates. Resolution (point density) varies by sensor used and flightline overlap. LAZ files.
+* Ecosystem Structure - Canopy Height Model (CHM) in meters. GeoTIFF.
+* Elevation - digital terrain model (DTM, bare earth) and digital surface model (DSM, top of canopy) in meters. GeoTIFF.
+* LiDAR slant range waveform - laser pulse in pulsewaves format. Hard to use!
+* Slope & Aspect - slope in degrees, aspect in N, S, E, W. GeoTIFF.
+
+## High Resolution RGB Imagery
+
+* High-Resolution orthorectified camera imagery - 10 cm resolution! In individual camera frames. GeoTIFF
+* High-Resolution orthorectified camera imagery mosaic - ~10 cm. Tiled, GeoTIFF.
+* Calling these out separately because in Kyla's exprience the mosaicked data is much more stretched than the camera imagery, so depending on what you are trying to do, frames might show more detail (though they are challenging to work with).
+
+## Other NEON Data
+
+* Obviously there are TONS of NEON data. Just highlighting a few things that might be of interest.
+* Field Spectral Data - hand held reflectance like we will collect and have collected in the past. Not collected every year. CSV.
+* PhenoCam Imagery - RGB images collected from tower every 30 minutes from 2016 to present. JPG.
+* Bundled Data Products - Eddy Covariance - CO\textsubscript{2} fluxes and lots of other fun stuff. Mostly 30 min temporal resolution. HDF5
+* Digital Hemispheric Photos of Plot Vegetation - upward and downward facing hemiphotos. RAW image format. Quality varies.
+* Vegetation Structure - in situ measurements of live and standing dead plants. See Barnett 2019. CSV.
+
+## Townsend/EnSPEC Lab Data
+
+* See Wang et al. 2020 paper (homework for next meeting)
+* Trait maps by flightline for many eastern US NEON sites. No longer available directly only but we can request. MLBS data is for 2017. Lots of traits with varying degrees of accuracy.
+* Coefficients are available to estimate traits on NEON data - we will hopefully have a workflow for this in time for our intensive online week.
+
+## ERSAM (Dahlin) Lab + SPEC School
+
+* For MLBS in 2018 upward facing hemiphotos, field photos, foliar samples from top of canopy and within canopy analyzed for LMA, N, and C.
+* Lidar-derived estimates of LAI for 2018.
+* SPEC School understory samples from 2023, 2024, 2025 - due to bad weather we only collected 31 samples from the understory and ~20 samples in 2024 and 2025 because there was no AOP flight.
+* WORKFLOW!
+
+## Other Data to Consider
+
+* Landsat & Sentinel-2
+  * Adrianna has been working with LandTrendr to look at change over time with Landsat and could explore that with a team.
+* EcoSTRESS thermal imagery?
+* GEDI spaceborne lidar data and products
+* MODIS/VIIRS timeseries
+* Lots of these and others can be easily extracted using AppEEARS (https://appeears.earthdatacloud.nasa.gov/)
+
+## Questions? Thoughts? Comments?
+
+## For Next Time (next meeting 5/29!)
+
+* Finalize travel planning
+* Activate MSU NetID & access HPCC
+* Practice using GitHub (if needed)
+* More reading & reading catch-up
