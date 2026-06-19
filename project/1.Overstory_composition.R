@@ -54,6 +54,10 @@ dat_proc |>
   ggplot2::theme_minimal() +
   ggplot2::theme(legend.title = ggplot2::element_blank())
 
+ggplot2::ggsave(plot = ggplot2::last_plot(),
+                filename = 'figures/height_density_by_plot.png',
+                dpi = 300)
+
 ## About 18 seems good here
 
 # Filter for height >= 18
@@ -91,7 +95,7 @@ sum_by_plotyear |>
                 eventID = dplyr::if_else(eventID == 'vst_MLBS_2019', '2019', eventID),
                 eventID = dplyr::if_else(eventID == 'vst_MLBS_2024', '2024', eventID)) |>
   dplyr::mutate(taxonID = dplyr::if_else(taxonID == 'ACRU', 'Red maple', taxonID),
-                taxonID = dplyr::if_else(taxonID == 'AMLA', 'Allegheny serviceberry', taxonID),
+                taxonID = dplyr::if_else(taxonID == 'AMLA', 'Allegheny\nserviceberry', taxonID),
                 taxonID = dplyr::if_else(taxonID == 'OXAR', 'Sourwood', taxonID),
                 taxonID = dplyr::if_else(taxonID == 'PIEC2', 'Shortleaf pine', taxonID),
                 taxonID = dplyr::if_else(taxonID == 'PITA', 'Loblolly pine', taxonID),
@@ -108,8 +112,12 @@ sum_by_plotyear |>
   ggplot2::facet_grid(factor(plotID, levels = c('006\nBurned', '007\nBurned', '020\nBurned',
                                                 '013\nUnburned', '019\nUnburned'))~eventID) +
   ggplot2::xlab('') + ggplot2::ylab('') +
-  ggplot2::theme_minimal() +
+  ggplot2::theme_void() +
   ggplot2::theme(axis.text = ggplot2::element_blank())
+
+ggplot2::ggsave(plot = ggplot2::last_plot(),
+                filename = 'figures/overstory_comp.png',
+                dpi = 300)
 
 sum_by_plot |>
   dplyr::mutate(plotID = dplyr::if_else(plotID == 'MLBS_006', '006\nBurned', plotID),
@@ -176,7 +184,7 @@ sum_by_plotyear2 |>
   dplyr::mutate(taxonID = dplyr::if_else(taxonID == 'ACPE', 'Striped maple', taxonID),
                 taxonID = dplyr::if_else(taxonID == 'ACRU', 'Red maple', taxonID),
                 taxonID = dplyr::if_else(taxonID == 'ELUM', 'Autumn olive', taxonID),
-                taxonID = dplyr::if_else(taxonID == 'HAVI4', 'American witchhazel', taxonID),
+                taxonID = dplyr::if_else(taxonID == 'HAVI4', 'American\nwitchhazel', taxonID),
                 taxonID = dplyr::if_else(taxonID == 'ILOP', 'American holly', taxonID),
                 taxonID = dplyr::if_else(taxonID == 'KALA', 'Mountain laurel', taxonID),
                 taxonID = dplyr::if_else(taxonID == 'OXAR', 'Sourwood', taxonID),
@@ -194,8 +202,12 @@ sum_by_plotyear2 |>
   ggplot2::facet_grid(factor(plotID, levels = c('006\nBurned', '007\nBurned', '020\nBurned',
                                                 '013\nUnburned', '019\nUnburned'))~eventID) +
   ggplot2::xlab('') + ggplot2::ylab('') +
-  ggplot2::theme_minimal() +
+  ggplot2::theme_void() +
   ggplot2::theme(axis.text = ggplot2::element_blank())
+
+ggplot2::ggsave(plot = ggplot2::last_plot(),
+                filename = 'figures/understory_comp.png',
+                dpi = 300)
 
 sum_by_plot2 |>
   dplyr::mutate(plotID = dplyr::if_else(plotID == 'MLBS_006', '006\nBurned', plotID),

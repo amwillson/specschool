@@ -27,6 +27,11 @@ lai_clip_025 <- terra::crop(lai_rast, poly_split[[6]])
 
 # Just testing to make sure it looks right
 terra::plot(lai_clip_006)
+terra::plot(lai_clip_007)
+terra::plot(lai_clip_013)
+terra::plot(lai_clip_019)
+terra::plot(lai_clip_020)
+terra::plot(lai_clip_025)
 
 # Make matrix
 lai_mat_006 <- terra::as.data.frame(lai_clip_006, 
@@ -51,6 +56,10 @@ lai_mat_006 |>
   ggplot2::theme_void() +
   ggplot2::theme(aspect.ratio = 1,
                  plot.title = ggplot2::element_text(size = 12, hjust = 0.5))
+
+ggplot2::ggsave(plot = ggplot2::last_plot(),
+                filename = 'figures/006_lai_spatial.png',
+                dpi = 300)
 
 lai_mat_007 |>
   ggplot2::ggplot() +
@@ -81,6 +90,10 @@ lai_mat_013 |>
   ggplot2::theme_void() +
   ggplot2::theme(aspect.ratio = 1,
                  plot.title = ggplot2::element_text(size = 12, hjust = 0.5))
+
+ggplot2::ggsave(plot = ggplot2::last_plot(),
+                filename = 'figures/013_lai_spatial.png',
+                dpi = 300)
 
 lai_mat_019 |>
   ggplot2::ggplot() +
@@ -151,6 +164,10 @@ lai_comb |>
   ggplot2::theme_minimal() +
   ggplot2::theme(legend.title = ggplot2::element_blank(),
                  plot.title = ggplot2::element_text(size = 12, hjust = 0.5))
+
+ggplot2::ggsave(plot = ggplot2::last_plot(),
+                filename = 'figures/lai_violin.png',
+                dpi = 300)
 
 # Plot just by burned/unburned
 lai_comb |>
