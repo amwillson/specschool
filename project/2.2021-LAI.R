@@ -1,4 +1,14 @@
-## Looking at LAI
+## Visualizing & basic analysis of LAI at MLBS
+
+## I used data processed & mosaicked in ArcGIS by
+## Samantha Allen. Those data were located in GIS_Files
+## but have not been shared to this repository.
+
+## Note that this used the LAI data product from NEON
+## which is derived from hyperspectral imagery.
+## In the future, this analysis should use LAI derived from
+## lidar by summing estimated LAD in the SPEC_School
+## github repository.
 
 rm(list = ls())
 
@@ -190,6 +200,3 @@ ks
 mw <- wilcox.test(lai_comb$Leaf_area_Index_2021[which(lai_comb$type == 'Burned')],
                   lai_comb$Leaf_area_Index_2021[which(lai_comb$type == 'Unburned')])
 mw
-
-## Maybe next try looking at relationship between
-## composition and LAI at the plot level

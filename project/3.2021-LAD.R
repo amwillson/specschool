@@ -1,4 +1,19 @@
-## Working with LAD
+## Visualizing LAD at MLBS distributed plots
+
+## This script uses inputs of LAD estimated on a 1 cubic
+## meter voxel for select distributed plots at MLBS
+
+## The RDS input files were made as follows
+## 1. Download NEON data product DP1.30003.001 for year
+##    2021 and for the tiles that contain the desired
+##    distributed plots using the NEON online data portal
+## 2. Run the following two steps from the SPEC_School Github repo
+##    a. spec_school_2026/ERSAM_Lab_3D_traits/2_canopy_structure/02_clean_pointcloud.R
+##    b. spec_school_2026/ERSAM_Lab_3D_traits/3_canopy_structure/03_uncalibrated_LAD.R
+## 3. Add a save in the 03_uncalibrated_LAD.R script after
+##    creating the object lad.raster for each tile
+##    NOTE THAT THE SAVE MUST BE DONE SO THAT THE FILE NAME 
+##    CHANGES FOR EACH ITERATION OF THE LOOP
 
 rm(list = ls())
 
@@ -187,8 +202,18 @@ p_025 <- lad_mat_025 |>
   ggplot2::theme(aspect.ratio = 1,
                  plot.title = ggplot2::element_text(size = 12, hjust = 0.5))
 
-cowplot::plot_grid(p_006, p_007, p_020,
-                   p_013, p_019, p_025,
+cowplot::plot_grid(p_006 + ggplot2::theme(plot.title = ggplot2::element_text(size = 10, hjust = 0.5),
+                                          legend.title = ggplot2::element_text(size = 8)),
+                   p_007 + ggplot2::theme(plot.title = ggplot2::element_text(size = 10, hjust = 0.5),
+                                          legend.title = ggplot2::element_text(size = 8)), 
+                   p_020 + ggplot2::theme(plot.title = ggplot2::element_text(size = 10, hjust = 0.5),
+                                          legend.title = ggplot2::element_text(size = 8)),
+                   p_013 + ggplot2::theme(plot.title = ggplot2::element_text(size = 10, hjust = 0.5),
+                                          legend.title = ggplot2::element_text(size = 8)), 
+                   p_019 + ggplot2::theme(plot.title = ggplot2::element_text(size = 10, hjust = 0.5),
+                                          legend.title = ggplot2::element_text(size = 8)), 
+                   p_025 + ggplot2::theme(plot.title = ggplot2::element_text(size = 10, hjust = 0.5),
+                                          legend.title = ggplot2::element_text(size = 8)),
                    nrow = 2)
 
 ggplot2::ggsave(plot = ggplot2::last_plot(),

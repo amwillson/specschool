@@ -1,6 +1,20 @@
+## Analyzing tree community composition data from NEON MLBS
+
+## Vegetation structure (DP1.10098.001) was downloaded
+## for MLBS all years from the online NEON data portal
+## on 15 June 2026
+
+## This script uses data across years to summarize
+## overstory and understory composition in select
+## distributed plots.
+## Sites were chosen because either they were burned
+## through a prescribed fire or the closest unburned plots
+## to those that were burned
+
 rm(list = ls())
 
 # Install neonOS package for joining NEON observational data
+# Uncomment if it's never been installed before
 #devtools::install_github('NEONScience/NEON-OS-data-processing/neonOS')
 
 # Stack all plant structure data
